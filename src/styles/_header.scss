@@ -1,0 +1,134 @@
+.ocean_logo_img {
+  margin-top: 30px;
+  //   max-width: 16.58px;
+  min-height: 26.81px;
+}
+
+.header_features {
+  margin-top: 53px;
+  max-width: 78.49px;
+  min-height: 25.43px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.8983px;
+  line-height: 25px;
+
+  color: rgba(255, 255, 255, 0.6);
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.cart {
+  display: inline-block;
+  margin-top: 53px;
+}
+
+.auto {
+  display: inline-block;
+  margin-top: 53px;
+}
+
+.discover_text {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 81.3276px;
+  line-height: 137.4%;
+  /* or 91px */
+
+  color: #ffffff;
+}
+
+mark {
+  background: linear-gradient(89.89deg, #42a6e3 2.33%, #ff56f6 101.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.discover_descr {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26.531px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.explore_btn {
+  position: absolute;
+  min-height: 64.12px;
+  left: 35px;
+  top: 430px;
+  display: inline-block;
+}
+
+.create_nft {
+  display: inline-block;
+  margin-top: 61px;
+  max-width: 150.13px;
+  min-height: 25.43px;
+
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.8983px;
+  line-height: 25px;
+
+  background: linear-gradient(89.89deg, #42a6e3 2.33%, #ff56f6 101.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.flex {
+  display: flex;
+}
+
+.discover_amount {
+  font-family: "Aldrich";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39.7965px;
+  line-height: 133%;
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.221092px;
+
+  color: #ffffff;
+}
+
+.line {
+  margin-top: 30px;
+  width: 63.01px;
+  height: 0px;
+  border: 1.10546px solid rgba(255, 255, 255, 0.26);
+  transform: rotate(90deg);
+  display: flex;
+}
+
+.author {
+  margin-top: -195px;
+}
+
+.spec {
+  font-family: "Alethia Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.6873px;
+  line-height: 22px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.221092px;
+
+  color: #ffffff;
+}

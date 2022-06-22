@@ -1,0 +1,36 @@
+@media (max-width: 1710px) {
+  .discover_text {
+    font-size: 70px;
+  }
+
+  [alt="author"],
+  [alt="smthInMask"] {
+    max-width: 150%;
+  }
+}
+
+@media (max-width: 1550px) {
+  .discover_amount {
+    font-size: 30px;
+  }
+  .digit {
+    margin-left: 12px;
+  }
+  .max-1530 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1513px) {
+  .discover_text {
+    font-size: 60px;
+  }
+
+  .explore_btn {
+    top: 377px;
+  }
+  .common_font {
+    font-size: 22.531px;
+  }
+}

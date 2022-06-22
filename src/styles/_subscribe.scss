@@ -1,0 +1,82 @@
+.subscribe {
+  margin-top: 260px;
+
+  input {
+    padding: 15.4764px 17.6873px;
+    gap: 11.05px;
+
+    width: 274.15px;
+    height: 53.06px;
+
+    /* Text / Gray 100 */
+
+    background: #f4f5f7;
+    border-radius: 5.5273px 0px 0px 5.5273px;
+  }
+}
+
+.subscribe_title {
+  margin-top: 35px;
+  display: block;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39.7965px;
+  line-height: 50px;
+  /* identical to box height */
+
+  font-feature-settings: "salt" on, "liga" off;
+
+  color: #ffffff;
+}
+
+.subscribe_descr {
+  margin-top: 28px;
+  margin-bottom: 50px;
+  display: block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.8983px;
+  line-height: 35px;
+  /* or 178% */
+
+  font-feature-settings: "salt" on, "liga" off;
+
+  color: #ffffff;
+}
+
+.subscribe_btn {
+  border: 2.41px solid;
+  border-color: #ffa6fa #3c79d4;
+  border-image-source: linear-gradient(
+    272.52deg,
+    #ffa6fa 47.49%,
+    #3c79d5 98.81%
+  );
+  box-shadow: 0px 4.817474842071533px 116.82377624511719px 0px #ff56f682;
+
+  display: inline-block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.8983px;
+  line-height: 35px;
+  width: 140px;
+
+  font-feature-settings: "salt" on, "liga" off;
+
+  color: #ffffff;
+}
+
+.hor_line {
+  background: #ffffff;
+  opacity: 0.2;
+  width: 100%;
+  margin-top: 160px;
+  height: 1.1px;
+}
+
+[alt="subscribe"] {
+  max-width: 100%;
+}

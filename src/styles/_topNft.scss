@@ -1,0 +1,168 @@
+.common_font {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26.531px;
+  line-height: 33px;
+
+  color: #ffffff;
+}
+
+.margin-top {
+  margin-top: 200px;
+}
+
+.time {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.nft_block {
+  margin-top: 47px;
+}
+
+.block_descr {
+  border: 2.88px solid;
+  border-image-source: linear-gradient(
+    145.77deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0) 105.76%
+  );
+  max-width: 100%;
+  min-height: 236.16px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1) -1.52%,
+    rgba(255, 255, 255, 0.024) 104.35%
+  );
+  backdrop-filter: blur(79.2003px);
+}
+
+.nft_name {
+  margin-top: 35px;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.0401px;
+  line-height: 46px;
+
+  color: #ffffff;
+}
+
+.end {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.4001px;
+  line-height: 46px;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.time_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.top_font {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.1601px;
+  // line-height: 46px;
+
+  color: #ffffff;
+}
+
+.time.end {
+  margin-top: -25px;
+}
+
+.eth {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.6587px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.wrapper_btn {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23.0401px;
+  line-height: 29px;
+  color: #ffffff;
+  width: 90%;
+  min-height: 48.96px;
+  border: 2.88px solid;
+  border-image-source: linear-gradient(
+    272.52deg,
+    #ffa6fa 47.49%,
+    #3c79d5 98.81%
+  );
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  box-shadow: 0px 5.76002px 139.681px rgba(255, 86, 246, 0.51);
+  backdrop-filter: blur(276.481px);
+}
+
+.margin-top-220 {
+  margin-top: 220px;
+}
+
+.collection_btn {
+  border: 2.88px solid #20083bbf;
+  margin-top: 44px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26.531px;
+  line-height: 33px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.5);
+
+  border-image-source: linear-gradient(
+    272.52deg,
+    rgba(255, 166, 250, 0.3) 47.49%,
+    rgba(60, 121, 213, 0.3) 98.81%
+  );
+
+  box-shadow: 0px 5.760024547576904px 139.6805877685547px 0px #ff56f682;
+
+  width: 100%;
+  min-height: 98.39px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.girl_stand {
+  margin-top: -650px;
+}
+
+.margin-top-40 {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.view_wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.as {
+  align-self: baseline;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
