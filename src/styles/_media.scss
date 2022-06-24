@@ -3,10 +3,10 @@
     font-size: 70px;
   }
 
-  [alt="author"],
-  [alt="smthInMask"] {
-    max-width: 150%;
-  }
+  // [alt="author"],
+  // [alt="smthInMask"] {
+  //   max-width: 150%;
+  // }
 }
 
 @media (max-width: 1550px) {
@@ -20,6 +20,16 @@
     display: flex;
     justify-content: center;
   }
+
+  .name_seller {
+    // margin-left: 33%;
+  }
+  .margin-left33 {
+    // margin-left: 15%;
+  }
+  .plus {
+    margin-left: 0%;
+  }
 }
 
 @media (max-width: 1513px) {
@@ -32,5 +42,246 @@
   }
   .common_font {
     font-size: 22.531px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .none_1400 {
+    display: none;
+  }
+  .flex-center {
+    display: flex;
+    justify-content: center;
+  }
+  .visible_1400 {
+    display: flex;
+  }
+  .create_nft {
+    margin-top: 0px;
+  }
+  .discover_descr {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .discover_text {
+    font-size: 50px;
+  }
+  .end {
+    font-size: 12.4001px;
+  }
+  .discover_amount {
+    font-size: 23px;
+  }
+  .none_1340 {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hidden_spec {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: nowrap !important;
+    justify-content: space-between;
+    font-size: 20px !important;
+  }
+
+  .subscribe input {
+    width: 200.15px;
+  }
+  .discover_amount {
+    font-size: 24px;
+  }
+  .none_1200 {
+    display: none;
+  }
+  .discover_text {
+    font-size: 40px;
+  }
+  .author {
+    margin-top: -151px;
+  }
+  .crypt_block {
+    margin-top: 15px;
+  }
+  .flex-1200 {
+    display: flex;
+    justify-content: center;
+  }
+  .girl_stand {
+    margin-top: 0px;
+  }
+  .follow_btn {
+    width: 100%;
+  }
+  .ach_text {
+    font-size: 17.8061px;
+  }
+  .person_cell {
+    display: none;
+  }
+  .visible_person {
+    display: block;
+
+    margin: auto;
+  }
+  .col-xxl-4.visible_person {
+    padding: 15px;
+  }
+  .subscribe_btn {
+    width: 90px;
+    font-size: 17.8983px;
+  }
+  .visible_1200 {
+    display: block;
+  }
+  .footer_descr {
+    margin-top: 21px;
+  }
+  .margin-top-100 {
+    // display: inline-block;
+    margin-top: 100px;
+  }
+  .header_features {
+    margin: auto;
+    margin-top: 35px;
+  }
+  .ocean_logo_img {
+    margin-top: 0px;
+    min-height: 26.81px;
+  }
+  // .footer_text {
+  //   display: none;
+  // }
+  #Features {
+    display: none;
+  }
+  [alt="new"] {
+    display: none;
+  }
+
+  .line_bottom {
+    margin-top: 7px;
+  }
+
+  .none_new {
+    display: none !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .none_992 {
+    display: none;
+  }
+
+  .footer_title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40.8983px;
+    line-height: 31px;
+    /* identical to box height, or 156% */
+
+    font-feature-settings: "salt" on, "liga" off;
+
+    color: #ffffff;
+  }
+  .footer_text {
+    margin-top: 25px;
+  }
+  .visible_992 {
+    display: block;
+  }
+  .discover_text {
+    font-size: 36px;
+  }
+  .top_sellers {
+    margin-top: 0px;
+  }
+
+  .flex-center-992 {
+    justify-content: center;
+    display: flex;
+  }
+
+  .subscribe input {
+    width: 60%;
+  }
+  .subscribe button {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .none_768 {
+    display: none;
+  }
+  .wrapper {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .discover_text {
+    font-size: 45px;
+  }
+  .discover_descr {
+    font-family: "Rajdhani";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    /* or 166% */
+
+    color: #ffffff;
+    margin-top: 40px;
+  }
+  .discover_amount_sub {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: -30px;
+  }
+  .discover_amount {
+    font-size: 20px;
+  }
+
+  .common_font {
+    font-size: 20.531px;
+  }
+  main.wrapper {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  div.wrapper {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .mobile_subscribe_img {
+    margin-top: 108px;
+    display: inline-block;
+  }
+  span.none.visible_1200.margin-top-100 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .none_576 {
+    display: none;
+  }
+  main.wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  div.wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }

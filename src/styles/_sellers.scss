@@ -69,8 +69,14 @@
 
 .flex {
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   flex-wrap: wrap;
+}
+
+.display-block-center {
+  display: block;
+  text-align: center;
+  width: 100%;
 }
 
 .confirm {
@@ -263,4 +269,9 @@
 
 .exp {
   margin-top: 70px;
+}
+
+span.name_seller {
+  display: inline-block;
+  margin-top: 5px;
 }

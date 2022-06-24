@@ -7,10 +7,13 @@
     <title>Nft</title>
     <link rel="stylesheet" href="src/styles/main.min.css" />
   </head>
-  <body>
+  <body style='overflow-x:hidden !important;'>
+
+    
+
     <main class="wrapper">
     <header class="ocean container-fluid">
-      <nav class="row">
+      <section class="row">
         <div class="col-2">
           <img
             src="src/img/header/nft_logo.png"
@@ -18,32 +21,74 @@
             class="ocean_logo_img"
           />
         </div>
+
+        <div class="offset-6 col none visible_1200">
+          <ul class="menu">
+            <li>
+              <div class="header_features">
+              Market
+            </div>
+          </li>
+            <li>
+              <div class="header_features">
+              Features
+            </div>
+          </li>
+            <li>
+              <div class="header_features">
+              Community
+            </div>
+          </li>
+            <li>
+              <div class="header_features">
+                Basket
+              </div>
+
+            </li>
+            <li>
+              <div class="header_features">
+                Authorize
+              </div>
+
+            </li>
+          </ul>
+          <button class="hamburger">
+            <!-- material icons https://material.io/resources/icons/ -->
+            <i class="menuIcon material-icons">
+              <img src="src/img/header/menu_white.png" alt="menu">
+            </i>
+            <i class="closeIcon material-icons">
+              <img src="src/img/header/close_white.png" alt="close">
+            </i>
+          </button>
+        </div>
+<!--  -->
         <div class="offset-1 col-2">
-          <div class="header_features">
+          <div class="header_features none_1200">
             Market
           </div>
         </div>
         <div class="col-2">
-          <div class="header_features">
+          <div class="header_features none_1200">
             Features
           </div>
         </div>
         <div class="col-2">
-          <div class="header_features">
+          <div class="header_features none_1200">
             Community
           </div>
         </div>
-        <div class="offset-2 col">
+        <div class="col offset-lg-1 offset-xl-0 offset-xxl-2 none_1200">
           <img src="src/img/header/Cart.svg" alt="cart" class="cart" />
         </div>
-        <div class="col">
+        <div class="col none_1200">
           <img src="src/img/header/Authorize.svg" alt="" class="auto" />
         </div>
-      </nav>
+      </section>
 
       <section class="discover">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6  col-sm-12 col-xl-6 col-lg-12">
             <span class="discover_text">
               Discover, collect, and sell <mark>Timeless</mark> NFTs
             </span>
@@ -54,15 +99,38 @@
               </span>
             </div>
             <div class="row">
-              <div class="col-4">
-                <img src="src/img/header/explore_btn.png" alt="btn" class="explore_btn">
+              <div class="col-lg-4 col-md-6 col-sm-5 col-4">
+                <img src="src/img/header/explore_btn.png" alt="btn" class="explore_btn none_1400">
+                <button class="explore_btn_real none wrapper_btn visible_1400">
+                  Explore
+                  <img class="none" src="src/img/topSellers/arrow-right.png" alt="arrow-right">
+                 </button>
+
               </div>
-              <div class="col offset-1 max-1530">
+              <div class="col offset-xl-2 max-1530 offset-lg-2">
                 <span class="create_nft">Create NFT'S</span>
               </div>
             </div>
+            
+            <div class="row ">
+              <div class="col-12 col-lg-8 flex none hidden_spec ">
+                <div class="discover_amount">35m+
+              </div>
+                <span class="discover_amount">18m+</span>
+                <span class="discover_amount">500k+</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-8 flex none hidden_spec ">
+                <div class="discover_amount_sub">
+                  Artwork
+              </div>
+                <span class="discover_amount_sub">Auctions</span>
+                <span class="discover_amount_sub"> Artists</span>
+              </div>
+            </div>
           </div>
-          <div class="offset-2 col">
+          <div class="col offset-xxl-1 offset-xl-0 offset-lg-3 margin-top-40">
             <img
               src="src/img/header/SmthInMask.png"
               alt="smthInMask"
@@ -73,35 +141,34 @@
         </div>
 
         <div class="row">
-          <div class="col-6 flex">
+
+          <div class="col-6 col-lg-8 flex none_1200">
             <div class="discover_amount">35m+
-
             </br>Artwork
-
           </div>
             <div class="line"></div>
-
             <span class="discover_amount">18m+<br class="spec"> Auctions</br></span>
             <div class="line"></div>
             <span class="discover_amount">500k+<br class="spec"> Artists</br></span>
           </div>
 
-          <div class="offset-9 col">
+          <div class="col offset-sm-2 offset-lg-5 offset-xl-7 offset-xxl-8">
             <img src="src/img/header/SmthInMaskAuthor.png" alt="author" class="author">
+
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-2">
+        <div class="row crypt_block none_1200">
+          <div class="col-xl-2 col-lg-6">
             <img src="src/img/header/Binance_logo.svg" alt="binance" class="logos">
           </div>
-          <div class="col-2 offset-1">
+          <div class="offset-1 offset-lg-0 col-lg-6 col-xl-1">
             <img src="src/img/header/ethereum_logo.png" alt="ether">
           </div>
-            <div class="col-2 offset-1">
+            <div class="offset-1 col-lg-6 col-xl-1 offset-lg-0">
               <img src="src/img/header/blockchain_logo.png" alt="blockchain_logo">
             </div>
-            <div class="col-2 offset-2">
+            <div class="offset-1 col-lg-6 col-xl-1 offset-lg-0">
               <img src="src/img/header/bitMex_logo.png" alt="bitMex_logo">
             </div>
 
@@ -111,24 +178,223 @@
 
     <section class="topNft">
       <div class="row">
-        <div class="col-5 common_font margin-top">
+        <div class="common_font margin-top col-5 col-sm-12 col-md-5">
           Top NFT's  now
         </div>
-        <div class="offset-3 col-4  common_font margin-top view_wrap">
+        <div class="offset-3 col-4  common_font margin-top view_wrap none_768">
           View All
           <img src="src/img/topSellers/arrow-right.png" alt="arrow-right">
         </div>
 
-        <div class="row">
+        <div class="row ">
 
-          <div class="col-4">
+            <div class="swiper visible_1400  flex-center ">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="col-lg-12  flex-center">
+
+                  <div class="nft_block ">
+                    <img src="src/img/showItems/Ethereum_block.png" alt="Ethereum_block" class="Ethereum_block" style="width: 100%;" >
+                    <div class="block_descr">
+                      <div class="row">
+                        <div class="col-7 offset-1">
+                          <span class="nft_name">
+                            Apollo Eth #1289 
+                          </span>
+                        </div>
+                        <div class="col">
+                          <span class="end">
+                            Auction Ends in
+                          </span>
+                        </div>
+                      </div>
+      
+                      <div class="row">
+                        <div class="col-6 offset-1">
+                          <img src="src/img/showItems/authorOfNft1.png"  alt="author">
+                          <span class="authors_name top_font">@jhonartist</span>
+                        </div>
+                        <div class=" col time_wrap top_font">
+                          <div class="hours time">18 </div>
+                          <div class="mins time">25 </div>
+                          <div class="sec time">44 </div>
+                        </div>
+                      </div>
+      
+                      <div class="row">
+                        <div class="offset-7 col time_wrap">
+                          <div class="time end">hours</div>
+                          <div class="time end">mins</div>
+                          <div class="time end">secs</div>
+                        </div>
+                      </div>
+      
+                      <div class="row">
+                        <div class="col offset-1 end">
+                          Reserve price
+                        </div>
+                      </div>
+      
+                      <div class="row">
+                        <div class="col offset-1">
+                          <img src="src/img/showItems/Crystall.png" alt="Crystall">
+                          <span class="eth">ETH 9.31</span>
+                          <span class="end">($29,8846)</span>
+                        </div>
+      
+                        <div class="offset-1 col">
+                          <button class="wrapper_btn">Place Bid</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+                <div class="swiper-slide">
+                  <div class="col-lg-12 flex-center">
+                    <div class="nft_block ">
+                      <img src="src/img/showItems/3d_art.png" alt="3d" style="width: 100%;" class="Ethereum_block">
+                      <div class="block_descr">
+                        <div class="row">
+                          <div class="col-7 offset-1">
+                            <span class="nft_name">
+                              Satisfying 3D Art
+                            </span>
+                          </div>
+                          <div class="col">
+                            <span class="end">
+                              Auction Ends in
+                            </span>
+                          </div>
+                        </div>
+        
+                        <div class="row">
+                          <div class="col-6 offset-1">
+                            <img src="src/img/showItems/authorOfNft3.png"  alt="author">
+                            <span class="authors_name top_font">@jhonartist</span>
+                          </div>
+                          <div class=" col time_wrap top_font">
+                            <div class="hours time">23 </div>
+                            <div class="mins time">35 </div>
+                            <div class="sec time">34 </div>
+                          </div>
+                        </div>
+        
+                        <div class="row">
+                          <div class="offset-7 col time_wrap">
+                            <div class="time end">hours</div>
+                            <div class="time end">mins</div>
+                            <div class="time end">secs</div>
+                          </div>
+                        </div>
+        
+                        <div class="row">
+                          <div class="col offset-1 end">
+                            Reserve price
+                          </div>
+                        </div>
+        
+                        <div class="row">
+                          <div class="col offset-1">
+                            <img src="src/img/showItems/Crystall.png" alt="Crystall">
+                            <span class="eth">ETH 9.31</span>
+                            <span class="end">($29,8846)</span>
+                          </div>
+        
+                          <div class="offset-1 col">
+                            <button class="wrapper_btn">Place Bid</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+
+                <div class="swiper-slide">
+                  <div class="col-lg-12 flex-center">
+                    <div class="nft_block">
+                      <img src="src/img/showItems/bull_block.png" style="width: 100%;" alt="bull_block" class="Ethereum_block">
+                      <div class="block_descr">
+                        <div class="row">
+                          <div class="col-7 offset-1">
+                            <span class="nft_name">
+                              Sassy Bull #1169 Art
+                            </span>
+                          </div>
+                          <div class="col">
+                            <span class="end">
+                              Auction Ends in
+                            </span>
+                          </div>
+                        </div>
+        
+                        <div class="row">
+                          <div class="col-6 offset-1">
+                            <img src="src/img/showItems/authorOfNft2.png" alt="author">
+                            <span class="authors_name top_font">@jhonartist</span>
+                          </div>
+                          <div class=" col time_wrap top_font">
+                            <div class="hours time">9 </div>
+                            <div class="mins time">15 </div>
+                            <div class="sec time">24 </div>
+                          </div>
+                        </div>
+        
+                        <div class="row">
+                          <div class="offset-7 col time_wrap">
+                            <div class="time end">hours</div>
+                            <div class="time end">mins</div>
+                            <div class="time end">secs</div>
+                          </div>
+                        </div>
+        
+                        <div class="row">
+                          <div class="col offset-1 end">
+                            Reserve price
+                          </div>
+                        </div>
+        
+                        <div class="row">
+                          <div class="col offset-1">
+                            <img src="src/img/showItems/Crystall.png" alt="Crystall">
+                            <span class="eth">ETH 9.31</span>
+                            <span class="end">($29,8846)</span>
+                          </div>
+        
+                          <div class="offset-1 col">
+                            <button class="wrapper_btn">Place Bid</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                ...
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+              
+              <!-- If we need navigation buttons -->
+              <!-- <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div> -->
+            
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div> 
+
+
+          <div class="col-lg-6 col-xl-4  none_1400">
             <div class="nft_block">
               <img src="src/img/showItems/Ethereum_block.png" alt="Ethereum_block" class="Ethereum_block" style="width: 100%;" >
               <div class="block_descr">
                 <div class="row">
                   <div class="col-7 offset-1">
                     <span class="nft_name">
-                      Apollo Eth #1289 NFT
+                      Apollo Eth #1289 
                     </span>
                   </div>
                   <div class="col">
@@ -177,9 +443,10 @@
                 </div>
               </div>
             </div>
-          </div>
+            
+          </div> 
 
-          <div class="col-4">
+          <div class="col-lg-6 col-xl-4 none_1400">
             <div class="nft_block">
               <img src="src/img/showItems/3d_art.png" alt="3d" style="width: 100%;" class="Ethereum_block">
               <div class="block_descr">
@@ -237,8 +504,8 @@
             </div>
           </div>
 
-          <div class="col-4">
-            <div class="nft_block">
+          <div class="col-lg-6 col-xl-4 none_1400">
+            <div class="nft_block ">
               <img src="src/img/showItems/bull_block.png" style="width: 100%;" alt="bull_block" class="Ethereum_block">
               <div class="block_descr">
                 <div class="row">
@@ -305,46 +572,46 @@
   </div>
 
   <div class="row">
-    <div class="col-3">
+    <div class="col-xl-3 col-lg-6">
       <button class="collection_btn">Photography</button>
     </div>
-    <div class="col-3">
+    <div class="col-xl-3 col-lg-6">
       <button class="collection_btn">Sports</button>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-3">
+    <div class="col-xl-3 col-lg-6">
       <button class="collection_btn">Brands</button>
     </div>
-    <div class="col-3">
+    <div class="col-xl-3 col-lg-6">
       <button class="collection_btn">Collectibles</button>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-3">
+    <div class="col-xl-3 col-lg-6">
       <button class="collection_btn">Art</button>
     </div>
-    <div class="col-3">
+    <div class="col-xl-3 col-lg-6">
       <button class="collection_btn">Utility</button>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-3">
+    <div class="col-xl-3 col-lg-6">
       <button class="collection_btn">Photography</button>
     </div>
-    <div class="col-3">
+    <div class="col-xl-3 col-lg-6">
       <button class="collection_btn">Sports</button>
     </div>
   </div>
   <div class="row">
-    <div class="col-2 offset-4 common_font margin-top-40 view_wrap">
+    <div class="col-2 col-sm col-lg col-lg-3 common_font margin-top-40 offset-2 offset-4 offset-lg-3 offset-md-2 col-md view_wrap">
       <span class="font-size-20">View All</span>
       <img src="src/img/topSellers/arrow-right.png" alt="arrow-right " class="as">
     </div>
-    <div class="offset-1 col">
+    <div class="offset-xxl-1 offset-xl-0 col flex-1200">
       <img src="src/img/showItems/standing_girl.png" alt="girl" class="girl_stand">
     </div>
   </div>
@@ -356,18 +623,18 @@
     <section class="sellers">
       <div class="row">
         <span class="col common_font ">Explore Collections</span>
-        <div class="offset-3 common_font col view_wrap">
+        <div class="offset-3 common_font col view_wrap none_768">
           <span >View All</span>
           <img src="src/img/topSellers/arrow-right.png" alt="arrow-right " class="as">
         </div>
       </div>
 
-      <div class="row">
+      <div class="row none_992">
         <div class="col-4">
           <div class="seller_block">
             <div class="seller_background"></div>
             <img src="src/img/topSellers/seller_men.png" alt="seller" class="face">
-            <div class="flex">
+            <div class="flex justify-content-center">
               <span class="name">Jhones Nickey</span>
               <span class="nickname">@jhonartist</span>
               <img src="src/img/topSellers/confirmation.png" alt="confirm" class="confirm">
@@ -396,7 +663,7 @@
           <div class="seller_block">
             <div class="seller_background"></div>
             <img src="src/img/topSellers/seller_girl_white.png" alt="seller" class="face">
-            <div class="flex">
+            <div class=" flex justify-content-center">
               <span class="name">Cody Fisher</span>
               <span class="nickname">@jhonartist</span>
               <img src="src/img/topSellers/confirmation.png" alt="confirm" class="confirm">
@@ -425,7 +692,7 @@
           <div class="seller_block">
             <div class="seller_background"></div>
             <img src="src/img/topSellers/seller_girl_asian.png" alt="seller" class="face">
-            <div class="flex">
+            <div class="flex justify-content-center">
               <span class="name">Jerome Bell</span>
               <span class="nickname">@jhonartist</span>
               <img src="src/img/topSellers/confirmation.png" alt="confirm" class="confirm">
@@ -452,16 +719,125 @@
 
       </div>
 
-      <div class="top_sellers row">
-        <div class="offset-4 col-4 common_font">
-          <span class="common_font">
+      <div class="top_sellers row none visible_992">
+        <div class="swiper visible_1400  flex-center ">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="col-lg-12  ">
+
+                <div class="seller_block">
+                  <div class="seller_background"></div>
+                  <img src="src/img/topSellers/seller_men.png" alt="seller" class="face">
+                  <div class="flex justify-content-center">
+                    <span class="name">Jhones Nickey</span>
+                    <span class="nickname">@jhonartist</span>
+                    <img src="src/img/topSellers/confirmation.png" alt="confirm" class="confirm">
+                  </div>
+      
+                  <div class="achievements">
+                    <span class="nums">125</span>
+                    <span class="nums">254</span>
+                    <span class="nums">129</span>
+                  </div>
+      
+                  <div class="achievements_text">
+                    <span class="ach_text">Followers</span>
+                    <span class="ach_text">Following</span>
+                    <span class="ach_text">Artworks</span>
+                  </div>
+      
+                  <div class="button_wrapper">
+                    <button class="follow_btn">Follow</button>
+                  </div>
+      
+                </div>
+            </div>
+
+            </div>
+            <div class="swiper-slide">
+              <div class="col-lg-12 ">
+                <div class="seller_block">
+                  <div class="seller_background"></div>
+                  <img src="src/img/topSellers/seller_girl_white.png" alt="seller" class="face">
+                  <div class=" flex justify-content-center">
+                    <span class="name">Cody Fisher</span>
+                    <span class="nickname">@jhonartist</span>
+                    <img src="src/img/topSellers/confirmation.png" alt="confirm" class="confirm">
+                  </div>
+      
+                  <div class="achievements">
+                    <span class="nums">356</span>
+                    <span class="nums">456</span>
+                    <span class="nums">89</span>
+                  </div>
+      
+                  <div class="achievements_text">
+                    <span class="ach_text">Followers</span>
+                    <span class="ach_text">Following</span>
+                    <span class="ach_text">Artworks</span>
+                  </div>
+      
+                  <div class="button_wrapper">
+                    <button class="follow_btn">Follow</button>
+                  </div>
+      
+                </div>
+              </div>
+              </div>
+
+
+            <div class="swiper-slide">
+              <div class="col-lg-12">
+                <div class="seller_block">
+                  <div class="seller_background"></div>
+                  <img src="src/img/topSellers/seller_girl_asian.png" alt="seller" class="face">
+                  <div class="flex justify-content-center">
+                    <span class="name">Jerome Bell</span>
+                    <span class="nickname">@jhonartist</span>
+                    <img src="src/img/topSellers/confirmation.png" alt="confirm" class="confirm">
+                  </div>
+      
+                  <div class="achievements">
+                    <span class="nums">546</span>
+                    <span class="nums">789</span>
+                    <span class="nums">54</span>
+                  </div>
+      
+                  <div class="achievements_text">
+                    <span class="ach_text">Followers</span>
+                    <span class="ach_text">Following</span>
+                    <span class="ach_text">Artworks</span>
+                  </div>
+      
+                  <div class="button_wrapper">
+                    <button class="follow_btn">Follow</button>
+                  </div>
+      
+                </div>
+              </div>
+            </div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+          
+          <!-- If we need navigation buttons -->
+          <!-- <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div> -->
+
+        </div>
+
+        <div class="common_font col-12 margin-top-40">
+          <span class="common_font display-block-center">
             Top Sellers this <mark class="pink">Mounth</mark>
             <img src="src/img/topSellers/arrow-down.png" alt="arrow-down">
           </span>
         </div>
 
         <div class="row">
-          <div class="offset-4 col-4">
+          <div class="col-12">
             <span class="descr_text">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim minim mollit.
             </span>
@@ -473,19 +849,18 @@
       </div>
 
       <div class="row">
-        <div class="col-4 ">
-          <div class="person_cell ">
+        <div class="col-12 col-lg-8 col-xl-6 col-xxl-4 visible_person">
+          <div class="person_cell visible_person">
             <div class="row" id="cell">
               <div class="col-1 ">
                 <span class="digit">1</span>
               </div>
-              <div class="col-1">
+              <div class="col-2">
                 <img src="src/img/topSellers/seller_1.png" alt="seller">
               </div>
-              <div class=" offset-1 col-4 name_seller">
+              <div class=" offset-0 col-4 name_seller margin-left33">
                 Eleanor Pena
-                <img src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
-                <span>74875</span>
+
               </div>
               <div class=" col offset-1">
                 <button class="green plus">+468.48%</button>
@@ -493,15 +868,16 @@
             </div>
 
             <div class="row">
-              <div class="offset-4 col item">
-
+              <div class="offset-3 col item name_seller">
+                <img class="margin-left33" src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
+                <span class="name_seller">74875</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-4">
-          <div class="person_cell ">
+        <div class="col-12 col-lg-8 col-xl-6 col-xxl-4 visible_person">
+          <div class="person_cell visible_person">
             <div class="row" id="cell">
               <div class="col-1 ">
                 <span class="digit">2</span>
@@ -510,9 +886,8 @@
                 <img src="src/img/topSellers/seller_2.png" alt="seller">
               </div>
               <div class=" offset-1 col-4 name_seller">
-                Savannah Nguyen
-                <img src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
-                <span>23478</span>
+                Robert Fox
+
               </div>
               <div class=" col offset-1">
                 <button class="green plus">+468.48%</button>
@@ -520,15 +895,16 @@
             </div>
 
             <div class="row">
-              <div class="offset-4 col item">
-
+              <div class="offset-3 col item name_seller">
+                <img class="margin-left33" src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
+                <span class="name_seller">23478</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-4 ">
-          <div class="person_cell ">
+        <div class="col-12 col-lg-8 col-xl-6 col-xxl-4 visible_person ">
+          <div class="person_cell visible_person">
             <div class="row" id="cell">
               <div class="col-1 ">
                 <span class="digit">3</span>
@@ -537,9 +913,8 @@
                 <img src="src/img/topSellers/seller_3.png" alt="seller">
               </div>
               <div class=" offset-1 col-4 name_seller">
-                Arlene McCoy
-                <img src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
-                <span>45875</span>
+                Jerome Bell
+
               </div>
               <div class=" col offset-1">
                 <button class="red plus">+468.48%</button>
@@ -547,272 +922,273 @@
             </div>
 
             <div class="row">
-              <div class="offset-4 col item">
-
+              <div class="offset-3 col item name_seller">
+                <img class="margin-left33" src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
+                <span class="name_seller">45875</span>
               </div>
             </div>
           </div>
         </div>
 
-      </div>
+        <div class="col-xxl-4 col-xl-6 col-6 ">
+          <div class="person_cell ">
+            <div class="row" id="cell">
+              <div class="col-1 ">
+                <span class="digit">4</span>
+              </div>
+              <div class="col-1">
+                <img src="src/img/topSellers/seller_1.png" alt="seller">
+              </div>
+              <div class=" offset-1 col-4 name_seller">
+                Eleanor Pena
+  
+              </div>
+              <div class=" col offset-1">
+                <button class="green plus">+468.48%</button>
+              </div>
+            </div>
+  
+            <div class="row">
+              <div class="offset-3 col item name_seller">
+                <img class="margin-left33" src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
+                <span class="name_seller">74875</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-xl-6 col-6">
+          <div class="person_cell ">
+            <div class="row" id="cell">
+              <div class="col-1 ">
+                <span class="digit">5</span>
+              </div>
+              <div class="col-1">
+                <img src="src/img/topSellers/seller_2.png" alt="seller">
+              </div>
+              <div class=" offset-1 col-4 name_seller">
+                Robert Fox
+  
+              </div>
+              <div class=" col offset-1">
+                <button class="green plus">+468.48%</button>
+              </div>
+            </div>
+  
+            <div class="row">
+              <div class="offset-3 col item name_seller">
+                <img class="margin-left33" src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
+                <span class="name_seller">23478</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-xl-6 col-6 ">
+          <div class="person_cell ">
+            <div class="row" id="cell">
+              <div class="col-1 ">
+                <span class="digit">6</span>
+              </div>
+              <div class="col-1">
+                <img src="src/img/topSellers/seller_3.png" alt="seller">
+              </div>
+              <div class=" offset-1 col-4 name_seller">
+                Jerome Bell
+  
+              </div>
+              <div class=" col offset-1">
+                <button class="red plus">+468.48%</button>
+              </div>
+            </div>
+  
+            <div class="row">
+              <div class="offset-3 col item name_seller">
+                <img class="margin-left33" src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
+                <span class="name_seller">45875</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class=" col-xxl-4 col-xl-6 col-6 ">
+          <div class="person_cell ">
+            <div class="row" id="cell">
+              <div class="col-1 ">
+                <span class="digit">7</span>
+              </div>
+              <div class="col-2">
+                <img src="src/img/topSellers/seller_1.png" alt="seller">
+              </div>
+              <div class=" offset-0 col-4 name_seller margin-left33">
+                Eleanor Pena
+
+              </div>
+              <div class=" col offset-1">
+                <button class="green plus">+468.48%</button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="offset-3 col item name_seller">
+                <img class="margin-left33" src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
+                <span class="name_seller">74875</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-xl-6 col-6">
+          <div class="person_cell ">
+            <div class="row" id="cell">
+              <div class="col-1 ">
+                <span class="digit">8</span>
+              </div>
+              <div class="col-1">
+                <img src="src/img/topSellers/seller_2.png" alt="seller">
+              </div>
+              <div class=" offset-1 col-4 name_seller">
+                Robert Fox
+
+              </div>
+              <div class=" col offset-1">
+                <button class="green plus">+468.48%</button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="offset-3 col item name_seller">
+                <img class="margin-left33" src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
+                <span class="name_seller">23478</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-xl-6 col-6 ">
+          <div class="person_cell ">
+            <div class="row" id="cell">
+              <div class="col-1 ">
+                <span class="digit">9</span>
+              </div>
+              <div class="col-1">
+                <img src="src/img/topSellers/seller_3.png" alt="seller">
+              </div>
+              <div class=" offset-1 col-4 name_seller">
+                Jerome Bell
+
+              </div>
+              <div class=" col offset-1">
+                <button class="red plus">+468.48%</button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="offset-3 col item name_seller">
+                <img class="margin-left33" src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
+                <span class="name_seller">45875</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-xl-6 col-6 ">
+          <div class="person_cell ">
+            <div class="row" id="cell">
+              <div class="col-1 ">
+                <span class="digit">10</span>
+              </div>
+              <div class="col-1">
+                <img src="src/img/topSellers/seller_1.png" alt="seller">
+              </div>
+              <div class=" offset-1 col-4 name_seller">
+                Eleanor Pena
+  
+              </div>
+              <div class=" col offset-1">
+                <button class="green plus">+468.48%</button>
+              </div>
+            </div>
+  
+            <div class="row">
+              <div class="offset-3 col item name_seller">
+                <img class="margin-left33" src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
+                <span class="name_seller">74875</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-xl-6 col-6">
+          <div class="person_cell ">
+            <div class="row" id="cell">
+              <div class="col-1 ">
+                <span class="digit">11</span>
+              </div>
+              <div class="col-1">
+                <img src="src/img/topSellers/seller_2.png" alt="seller">
+              </div>
+              <div class=" offset-1 col-4 name_seller">
+                Robert Fox
+  
+              </div>
+              <div class=" col offset-1">
+                <button class="green plus">+468.48%</button>
+              </div>
+            </div>
+  
+            <div class="row">
+              <div class="offset-3 col item name_seller">
+                <img class="margin-left33" src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
+                <span class="name_seller">23478</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-xl-6 col-6 ">
+          <div class="person_cell ">
+            <div class="row" id="cell">
+              <div class="col-1 ">
+                <span class="digit">12</span>
+              </div>
+              <div class="col-1">
+                <img src="src/img/topSellers/seller_3.png" alt="seller">
+              </div>
+              <div class=" offset-1 col-4 name_seller">
+                Jerome Bell
+  
+              </div>
+              <div class=" col offset-1">
+                <button class="red plus">+468.48%</button>
+              </div>
+            </div>
+  
+            <div class="row">
+              <div class="offset-3 col item name_seller">
+                <img class="margin-left33" src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
+                <span class="name_seller">45875</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> 
 
     </div>
 
     <div class="row">
-      <div class="col-4 ">
-        <div class="person_cell ">
-          <div class="row" id="cell">
-            <div class="col-1 ">
-              <span class="digit">4</span>
-            </div>
-            <div class="col-1">
-              <img src="src/img/topSellers/seller_1.png" alt="seller">
-            </div>
-            <div class=" offset-1 col-4 name_seller">
-              Eleanor Pena
-              <img src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
-              <span>74875</span>
-            </div>
-            <div class=" col offset-1">
-              <button class="green plus">+468.48%</button>
-            </div>
-          </div>
+     
 
-          <div class="row">
-            <div class="offset-4 col item">
 
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-4">
-        <div class="person_cell ">
-          <div class="row" id="cell">
-            <div class="col-1 ">
-              <span class="digit">5</span>
-            </div>
-            <div class="col-1">
-              <img src="src/img/topSellers/seller_2.png" alt="seller">
-            </div>
-            <div class=" offset-1 col-4 name_seller">
-              Savannah Nguyen
-              <img src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
-              <span>23478</span>
-            </div>
-            <div class=" col offset-1">
-              <button class="green plus">+468.48%</button>
-            </div>
-          </div>
 
-          <div class="row">
-            <div class="offset-4 col item">
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-4 ">
-        <div class="person_cell ">
-          <div class="row" id="cell">
-            <div class="col-1 ">
-              <span class="digit">6</span>
-            </div>
-            <div class="col-1">
-              <img src="src/img/topSellers/seller_3.png" alt="seller">
-            </div>
-            <div class=" offset-1 col-4 name_seller">
-              Arlene McCoy
-              <img src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
-              <span>45875</span>
-            </div>
-            <div class=" col offset-1">
-              <button class="red plus">+468.48%</button>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="offset-4 col item">
-
-            </div>
-          </div>
-        </div>
-      </div>
 
     </div>
 
   </div>
 
-  <div class="row">
-    <div class="col-4 ">
-      <div class="person_cell ">
-        <div class="row" id="cell">
-          <div class="col-1 ">
-            <span class="digit">7</span>
-          </div>
-          <div class="col-1">
-            <img src="src/img/topSellers/seller_1.png" alt="seller">
-          </div>
-          <div class=" offset-1 col-4 name_seller">
-            Eleanor Pena
-            <img src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
-            <span>74875</span>
-          </div>
-          <div class=" col offset-1">
-            <button class="green plus">+468.48%</button>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="offset-4 col item">
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-4">
-      <div class="person_cell ">
-        <div class="row" id="cell">
-          <div class="col-1 ">
-            <span class="digit">8</span>
-          </div>
-          <div class="col-1">
-            <img src="src/img/topSellers/seller_2.png" alt="seller">
-          </div>
-          <div class=" offset-1 col-4 name_seller">
-            Savannah Nguyen
-            <img src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
-            <span>23478</span>
-          </div>
-          <div class=" col offset-1">
-            <button class="green plus">+468.48%</button>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="offset-4 col item">
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-4 ">
-      <div class="person_cell ">
-        <div class="row" id="cell">
-          <div class="col-1 ">
-            <span class="digit">9</span>
-          </div>
-          <div class="col-1">
-            <img src="src/img/topSellers/seller_3.png" alt="seller">
-          </div>
-          <div class=" offset-1 col-4 name_seller">
-            Arlene McCoy
-            <img src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
-            <span>45875</span>
-          </div>
-          <div class=" col offset-1">
-            <button class="green plus">+468.48%</button>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="offset-4 col item">
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-</div>
-
-<div class="row">
-  <div class="col-4 ">
-    <div class="person_cell ">
-      <div class="row" id="cell">
-        <div class="col-1 ">
-          <span class="digit">10</span>
-        </div>
-        <div class="col-1">
-          <img src="src/img/topSellers/seller_1.png" alt="seller">
-        </div>
-        <div class=" offset-1 col-4 name_seller">
-          Eleanor Pena
-          <img src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
-          <span>74875</span>
-        </div>
-        <div class=" col offset-1">
-          <button class="green plus">+468.48%</button>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="offset-4 col item">
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-4">
-    <div class="person_cell ">
-      <div class="row" id="cell">
-        <div class="col-1 ">
-          <span class="digit">11</span>
-        </div>
-        <div class="col-1">
-          <img src="src/img/topSellers/seller_2.png" alt="seller">
-        </div>
-        <div class=" offset-1 col-4 name_seller">
-          Savannah Nguyen
-          <img src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
-          <span>23478</span>
-        </div>
-        <div class=" col offset-1">
-          <button class="red plus">+468.48%</button>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="offset-4 col item">
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-4 ">
-    <div class="person_cell ">
-      <div class="row" id="cell">
-        <div class="col-1 ">
-          <span class="digit">12</span>
-        </div>
-        <div class="col-1">
-          <img src="src/img/topSellers/seller_3.png" alt="seller">
-        </div>
-        <div class=" offset-1 col-4 name_seller">
-          Arlene McCoy
-          <img src="src/img/topSellers/smallCrystall.png" alt="smallCrystal">
-          <span>45875</span>
-        </div>
-        <div class=" col offset-1">
-          <button class="green plus">+468.48%</button>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="offset-4 col item">
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
+  
 
 </div>
 
@@ -826,7 +1202,7 @@
   </main>
   <section class="whatIs container-fluid">
     <div class="row">
-      <div class="col offset-7">
+      <div class="col-xxl offset-xxl-7 col-lg-6 col-md-12 flex-center-992 offset-lg-3 offset-md-0">
         <div class="nft_wrapper">
           <span class="nft_title">What are NFT’s ?</span>
           <span class="nft_descr">
@@ -843,7 +1219,7 @@
   <div class="wrapper">
     <section class="subscribe">
       <div class="row">
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12 none_576 ">
           <img  src="src/img/whatIsNft/subscribe_img.png" alt="subscribe">
         </div>
         <div class="col offset-1">
@@ -851,6 +1227,8 @@
           <span class="subscribe_descr">Specially developed to help restore a more youthful appearance with improved radiance and bounce.</span>
           <input type="text" placeholder="Your work email adress">
           <button class="wrapper_btn subscribe_btn">Subscribe</button>
+
+          <img class="mobile_subscribe_img none" src="src/img/whatIsNft/subscribe_mobile.png" alt="subscribe">
         </div>
       </div>
 
@@ -858,15 +1236,16 @@
     </section>
 
     <footer>
-      <div class="row">
+      <div class="row none_992">
         <div class="col-2">
-          <img class="footer_logo" src="src/img/header/nft_logo.png" alt="logos">
+          <img class="footer_logo none_1200" src="src/img/header/nft_logo.png " alt="logos">
+          <span class=" margin-top-100 none visible_1200"><mark>OceanNft</mark></span>
           <span class="footer_text footer_descr">
             Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed turpis volutpat. Cursus sed massa non nisi, placerat.
           </span>
           <div class="media_block">
             <img src="src/img/footer/inst.png" alt="inst">
-            <img src="src/img/footer/ball.png" alt="ball">
+            <img class="none_1200" src="src/img/footer/ball.png" alt="ball">
             <img src="src/img/footer/twitter.png" alt="twitter">
             <img src="src/img/footer/youtube.png" alt="youtube">
           </div>
@@ -910,7 +1289,7 @@
         </div>
 
         <div class="col-1">
-          <span class="footer_title">Follow us</span>
+          <span class="footer_title">FollowUs</span>
           <a href="#" class="footer_text">Facebook</a>
           <a href="#" class="footer_text">Twitter</a>
           <a href="#" class="footer_text">Dribbble</a>
@@ -919,13 +1298,92 @@
         </div>
       </div>
 
+      <div class="row">
+        <div class="col-12 flex-center">
+
+          <div class="list none visible_992">
+            <div class="footer_descr_spec">
+              <span class=" margin-top-100 none visible_1200"><mark>OceanNft</mark></span>
+              <span class="footer_text footer_descr">
+                Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed turpis volutpat. Cursus sed massa non nisi, placerat.
+              </span>
+              <div class="media_block">
+                <img src="src/img/footer/inst.png" alt="inst">
+                <img class="" src="src/img/footer/ball.png" alt="ball">
+                <img src="src/img/footer/twitter.png" alt="twitter">
+                <img src="src/img/footer/youtube.png" alt="youtube">
+              </div>
+            </div>
+            <span class="footer_title showable first"
+              >Market place
+              <img src="src/img/topSellers/arrow-down.png" alt="arrow-down" />
+              <a class="footer_text none_new">Overview</a>
+              <a class="footer_text none_new" id="Features">Features</a>
+              <img src="src/img/footer/new.png" alt="new" />
+              <a class="footer_text none_new">Tutorials</a>
+              <a class="footer_text none_new">Pricing</a>
+              <a class="footer_text none_new">Releases</a>
+            </span>
+
+            <div class="hor_line line_bottom "></div>
+  
+            <span class="footer_title showable second">
+              Collectibles
+              <img src="src/img/topSellers/arrow-down.png" alt="arrow-down" />
+              <a href="#" class="footer_text none_new">About</a>
+              <a href="#" class="footer_text none_new">Press</a>
+              <a href="#" class="footer_text none_new">Careers</a>
+              <a href="#" class="footer_text none_new">Contact</a>
+              <a href="#" class="footer_text none_new">Partners</a>
+            </span>
+
+            <div class="hor_line line_bottom"></div>
+  
+            <span class="footer_title showable third">
+              Support
+              <img src="src/img/topSellers/arrow-down.png" alt="arrow-down" />
+              <a href="#" class="footer_text none_new">Help Center</a>
+              <a href="#" class="footer_text none_new">Safety Center</a>
+              <a href="#" class="footer_text none_new">Legal</a>
+              <a href="#" class="footer_text none_new">Privacy policy</a>
+              <a href="#" class="footer_text none_new">Status</a>
+            </span>
+
+            <div class="hor_line line_bottom"></div>
+  
+            <span class="footer_title showable fourth">Legal
+              <img src="src/img/topSellers/arrow-down.png" alt="arrow-down" />
+              <a href="#" class="footer_text none_new">Cookies Policy</a>
+              <a href="#" class="footer_text none_new">Privacy Policy</a>
+              <a href="#" class="footer_text none_new">Terms of Service</a>
+              <a href="#" class="footer_text none_new">Law Enforcement</a>
+              <a href="#" class="footer_text none_new">Status</a>
+            </span>
+
+            <div class="hor_line line_bottom"></div>
+  
+            <span class="footer_title showable fifth">
+              FollowUs
+              <img src="src/img/topSellers/arrow-down.png" alt="arrow-down" />
+              <a href="#" class="footer_text none_new">Facebook</a>
+              <a href="#" class="footer_text none_new">Twitter</a>
+              <a href="#" class="footer_text none_new">Dribbble</a>
+              <a href="#" class="footer_text none_new">Instagram</a>
+              <a href="#" class="footer_text none_new">LinkedIn</a>
+            </span>
+
+            <div class="hor_line line_bottom "></div>
+          </div>
+        </div>
+      </div>
+
       <div class="end_block">
-        <div class="hor_line margin-top-86"></div>
+        <div class="hor_line margin-top-86 none_992"></div>
         <div class="row">
-          <div class="col-3 rights">
+          <div class="col-md-12 col-12 col-lg-5 col-sm-12 rights">
             © 2020 Landify UI Kit. All rights reserved
           </div>
-          <div class="offset-5 col rights">
+          <div class="col-lg offset-lg-2 offset-xl-3 offset-lg-2 col-md-12 offset-md-0 rights">
             Terms & Conditions | Privacy Policy | Sitemap
           </div>
         </div>

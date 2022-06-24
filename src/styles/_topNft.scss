@@ -156,7 +156,7 @@
 
 .view_wrap {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .as {
@@ -165,4 +165,8 @@
 
 .font-size-20 {
   font-size: 20px;
+}
+
+.flex-center {
+  display: none;
 }
