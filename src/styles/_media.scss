@@ -213,6 +213,10 @@
   .subscribe button {
     width: 30%;
   }
+  .flex_center_768{
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -284,4 +288,63 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+  .wrapper_btn {
+    font-size: 20.0401px;
+  }
+  .nft_name {
+  font-size: 17.0401px;
+}
+.top_font {
+
+  font-size: 17.1601px;
+
+}
+.nft_name {
+
+  font-size: 17.0401px;
+
+}
+.end {
+  font-size: 11.4001px;
+}
+}
+
+@media(max-width : 400px){
+  .plus {
+
+    width: 100%;
+}
+.name_seller {
+
+  font-size: 18.0479px;
+
+}
+.green {
+
+  font-size: 8.7012px;
+
+}
+.red{
+  font-size: 8.7012px;
+}
+.nft_descr {
+
+  font-size: 18.0292px;
+}
+.nft_wrapper {
+
+  margin-top: 10px;
+
+}
+.learn {
+
+  margin-left: 20px;
+
+
+}
+.subscribe_title {
+
+  font-size: 30.7965px;
+
+}
 }
