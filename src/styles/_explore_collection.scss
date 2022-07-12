@@ -1,0 +1,71 @@
+.explore_collections {
+  margin-top: 200px;
+}
+
+.explore_item_text {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26.531px;
+  line-height: 33px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.5);
+  width: 345.12px;
+  height: 98.39px;
+
+  background: rgba(255, 86, 246, 0);
+  border: 2px solid transparent;
+  -o-border-image: linear-gradient(135deg, #3c79d4 20%, #ffa6fa 70%);
+  border-image: linear-gradient(
+    272.52deg,
+    rgba(255, 166, 250, 0.3) 47.49%,
+    rgba(60, 121, 213, 0.3) 98.81%
+  );
+  border-image-slice: 1;
+  border: 2.88px solid;
+}
+
+.explore_shadow {
+  filter: drop-shadow(0px 5.76002px 139.681px rgba(255, 86, 246, 0.51));
+  backdrop-filter: blur(276.481px);
+  box-shadow: 0px 5.760024547576904px 139.6805877685547px 0px
+    rgba(255, 86, 246, 0.51);
+}
+
+.explore_item {
+  display: inline-block;
+  margin: 30px 0 0 0;
+}
+
+.explore_item_text:hover {
+  box-shadow: 0px 4.421836853027344px 107.22954559326172px 0px
+    rgba(255, 86, 246, 0.51);
+  background: linear-gradient(
+      92.23deg,
+      #ff56f6 21.43%,
+      #b936ee 50.63%,
+      #3bace2 100%,
+      #406aff 117.04%
+    )
+    padding-box;
+}
+
+.margin-right-33 {
+  margin-right: 33px;
+}
+
+.standing_girl_pos {
+  margin-top: -100px;
+}
+
+.font_19 {
+  font-size: 19px;
+}
+
+.collection_view_pos {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 17px;
+}

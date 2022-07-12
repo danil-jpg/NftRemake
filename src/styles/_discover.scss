@@ -1,0 +1,382 @@
+.discover_text {
+  margin-top: -5px;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75.3276px;
+  line-height: 114.4%;
+  color: #fff;
+}
+.visible_768 {
+  display: none;
+}
+
+.visible_769 {
+  display: none;
+}
+
+.rainbow {
+  background-image: linear-gradient(272.38deg, #43a5e3 46.06%, #ff56f6 81.53%),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 66.3276px;
+  line-height: 137.4%;
+
+  color: #ffffff;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.discover_descr {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24.531px;
+  line-height: 44px;
+  /* or 167% */
+
+  color: #ffffff;
+}
+
+.smth_in_mask_position {
+  position: absolute;
+  max-width: 402px;
+  min-height: 477px;
+  left: 60%;
+  top: 158px;
+  z-index: 1;
+}
+
+.author_block_pos {
+  box-sizing: border-box;
+  position: absolute;
+  width: 305.06px;
+  height: 165.3px;
+  left: 70%;
+  top: 530.31px;
+  z-index: 2;
+}
+
+.author_wrapper {
+  background: url(../img/header/SmthInMaskAuthor.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.explore_btn {
+  width: 249.83px;
+  height: 64.12px;
+
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  backdrop-filter: blur(212.248px);
+
+  /* Note: backdrop-filter has minimal browser support */
+
+  border: 2.21px solid;
+
+  border-image-source: linear-gradient(
+    272.52deg,
+    #ffa6fa 47.49%,
+    #3c79d5 98.81%
+  );
+
+  // transform: matrix(-1, 0, 0, 1, 0, 0);
+  -webkit-clip-path: polygon(27% 0, 95% 0, 95% 62%, 75% 100%, 0 100%, 0 27%);
+  clip-path: polygon(27% 0, 95% 0, 95% 62%, 75% 100%, 0 100%, 0 27%);
+}
+
+.explore_btn_pos {
+  margin-top: 43px;
+}
+
+.rainbow_text {
+  font-family: "Orbitron";
+  font-style: normal;
+  width: 148.13px;
+  background: linear-gradient(89.89deg, #42a6e3 2.33%, #ff56f6 101.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.rainbow_text_19 {
+  font-weight: 700;
+  font-size: 17.8983px;
+  line-height: 25px;
+}
+
+.rainbow_text_pos {
+  margin-left: 20px;
+  margin-top: 41px;
+}
+
+.explore_block_pos {
+  display: flex;
+  align-items: center;
+}
+
+.descr_info {
+  margin-top: 68px;
+
+  display: flex;
+  align-items: center;
+}
+
+.ver_line {
+  background: rgba(255, 255, 255, 0.26);
+  position: relative;
+  width: 2.01px;
+  height: 63px;
+  left: 129px;
+  bottom: 66px;
+}
+
+.info_num {
+  font-family: "Aldrich";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39.7965px;
+  line-height: 53px;
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.221092px;
+
+  color: #ffffff;
+}
+
+.info_descr {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.6873px;
+  line-height: 22px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.221092px;
+
+  color: #a9a1b6;
+}
+
+.flex {
+  display: flex;
+}
+.margin-left-40 {
+  margin-left: 40px;
+}
+
+.author_right {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 27px;
+  margin-left: 12px;
+  // justify-content: center;
+
+  img {
+    align-self: center;
+    margin: 2px;
+  }
+}
+
+.smth_name {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.6873px;
+  line-height: 35px;
+  /* identical to box height, or 200% */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.author_tag {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.4764px;
+  line-height: 35px;
+  /* identical to box height, or 229% */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.reserve_price {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.0546px;
+  line-height: 35px;
+  /* identical to box height, or 320% */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.eth_price {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9.71776px;
+  line-height: 12px;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin-top: -10px;
+}
+
+.dollar_price {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.0546px;
+  line-height: 35px;
+  /* identical to box height, or 320% */
+  display: inline-block;
+  margin-left: 5px;
+  /* White/White 100 */
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.auction-end {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.0546px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.time_block {
+  display: flex;
+  justify-content: space-evenly;
+  p {
+    font-family: "Rajdhani";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.6873px;
+
+    align-items: center;
+
+    color: #ffffff;
+  }
+}
+
+.author_left {
+  // display: flex;
+  // flex-wrap: wrap;
+  margin-top: 36px;
+  // margin-left: 23px;
+}
+
+.time_block_descr {
+  display: flex;
+  justify-content: space-evenly;
+  p {
+    font-family: "Rajdhani";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0546px;
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+
+    opacity: 0.7;
+  }
+}
+
+.rainbow_button {
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+
+  border-radius: 2.21092px;
+
+  border: 2.21px solid transparent;
+
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  border: 2px solid transparent;
+  border-image: linear-gradient(135deg, #3c79d4 20%, #ffa6fa 70%);
+  border-image-slice: 1;
+  // Так и не понял как оно работает,нужно завтра разобраться.
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.6873px;
+
+  color: #ffffff;
+}
+
+.place_bid_pos {
+  margin-top: 22px;
+  margin-right: 0px;
+}
+
+.rainbow_btn_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.brands_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 85px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.visible-476 {
+  display: none;
+}
