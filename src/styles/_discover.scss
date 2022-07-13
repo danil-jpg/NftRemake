@@ -1,3 +1,7 @@
+.discover_section {
+  margin-bottom: 150px;
+}
+
 .discover_text {
   margin-top: -5px;
   font-family: "League Spartan";
@@ -68,9 +72,30 @@
   background-size: cover;
 }
 
+#polygon::before {
+  width: 246px;
+  height: 60px;
+
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  position: absolute;
+  top: 2px;
+
+  left: 2px;
+
+  content: "";
+  clip-path: inherit;
+}
+
 .explore_btn {
-  width: 249.83px;
-  height: 64.12px;
+  position: relative;
+  width: 250px;
+  height: 64px;
 
   background: linear-gradient(
     92.23deg,
@@ -84,8 +109,6 @@
 
   /* Note: backdrop-filter has minimal browser support */
 
-  border: 2.21px solid;
-
   border-image-source: linear-gradient(
     272.52deg,
     #ffa6fa 47.49%,
@@ -93,8 +116,33 @@
   );
 
   // transform: matrix(-1, 0, 0, 1, 0, 0);
-  -webkit-clip-path: polygon(27% 0, 95% 0, 95% 62%, 75% 100%, 0 100%, 0 27%);
-  clip-path: polygon(27% 0, 95% 0, 95% 62%, 75% 100%, 0 100%, 0 27%);
+  -webkit-clip-path: polygon(17% 0, 92% 0, 92% 67%, 75% 100%, 0 100%, 0 27%);
+  clip-path: polygon(17% 0, 92% 0, 92% 67%, 75% 100%, 0 100%, 0 27%);
+  box-shadow: 0px 4.421836853027344px 107.22954559326172px 0px
+    rgba(255, 86, 246, 0.51);
+
+  background: linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
+}
+
+.polygon_text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.8983px;
+  line-height: 25px;
+
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+
+  p {
+    margin-right: 10px;
+  }
 }
 
 .explore_btn_pos {

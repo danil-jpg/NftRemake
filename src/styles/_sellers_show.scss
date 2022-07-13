@@ -1,5 +1,5 @@
 .top_sellers {
-  margin-top: 247px;
+  margin-top: 67px;
 }
 .top_author_rectangle {
   height: 330px;
@@ -86,4 +86,16 @@
 
 [alt="colorfulBackground"] {
   width: 400px;
+}
+
+.sellers_rainbow_button_pos {
+  display: flex;
+  justify-content: center;
+  width: 216.84px;
+  height: 50.85px;
+  margin: auto;
+}
+
+.seller_show_rainbow_btn {
+  width: 100%;
 }

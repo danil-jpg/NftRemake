@@ -209,6 +209,9 @@
   .footer_logo_pos {
     margin-top: 30px;
   }
+  .sellers_rainbow_button_pos {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -261,7 +264,7 @@
     }
   }
   .main_menu {
-    transform: translateY(-80%) !important;
+    transform: translateY(-30%) !important;
     transition: 2s;
   }
   .mobile_descr_pos {
@@ -310,7 +313,7 @@
     font-size: 14px;
     margin: auto;
     width: 300px;
-    margin-top: 40px;
+    margin-top: 14px;
   }
 
   .justify-content-center-576 {
@@ -475,6 +478,29 @@
   }
   .what_is_nft_section {
     min-height: 1300px;
+  }
+  .header_logo_pos {
+    margin-bottom: 97px;
+  }
+  #polygon {
+    width: 131px;
+    height: 34px;
+  }
+  #polygon::before {
+    width: 129px;
+    height: 32px;
+    top: 1px;
+    left: 1px;
+  }
+  .polygon_text {
+    font-size: 12px;
+
+    img {
+      height: 8.26px;
+    }
+  }
+  .rainbow_text_17 {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 476px) {
