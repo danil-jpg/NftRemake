@@ -390,6 +390,45 @@
     width: 72.92px;
     font-size: 10px;
   }
+  .what_is_nft_block_pos {
+    justify-content: center;
+  }
+
+  .what_is_nft {
+    height: 300px;
+  }
+
+  .what_is_wrapper {
+    margin-top: 120px;
+    width: 335.4px;
+    height: 275px;
+  }
+
+  .what_is_title {
+    font-size: 25.87px;
+    margin-top: 10px;
+  }
+  .what_is_descr {
+    font-size: 11.6415px;
+    height: 114px;
+    width: 266.46px;
+  }
+  .learn_more {
+    font-size: 16px;
+  }
+  .what_is_marks {
+    width: 220.31px;
+    height: 15.69px;
+
+    img {
+      width: 74;
+      height: 16px;
+    }
+  }
+  .what_is_nft_pos {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 476px) {
   p.info_num {
