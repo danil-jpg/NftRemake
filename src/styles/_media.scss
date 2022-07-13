@@ -49,6 +49,16 @@
     justify-content: center;
     margin: 0;
   }
+  .subscribe_to_us {
+    font-size: 34px;
+  }
+  .subscribe_button {
+    height: 53px;
+    width: 108px;
+  }
+  .subscribe_input {
+    width: 216.15px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -122,6 +132,9 @@
   div.author_right_spec {
     margin-left: 12px;
   }
+  .subscribe_img {
+    width: 500px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -177,6 +190,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .subscribe_input {
+    width: 316.15px;
+  }
+  .subscribe_img_mobile_pos {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
   }
 }
 

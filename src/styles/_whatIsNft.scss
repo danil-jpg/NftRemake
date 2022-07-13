@@ -98,3 +98,55 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.subscribe_img {
+  margin-right: 60px;
+}
+
+.subscribe_block {
+  margin-top: 160px;
+}
+
+.subscribe_descr {
+  height: 65.75px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.8983px;
+  line-height: 35px;
+  /* or 178% */
+
+  font-feature-settings: "salt" on, "liga" off;
+
+  color: #ffffff;
+}
+
+.subscribe_to_us {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39.7965px;
+  line-height: 50px;
+  /* identical to box height */
+
+  font-feature-settings: "salt" on, "liga" off;
+
+  color: #ffffff;
+  padding: 27px 0;
+}
+
+.subscribe_input {
+  padding: 20px;
+  width: 256.15px;
+  height: 53.06px;
+  margin-top: 49px;
+}
+
+.subscribe_button {
+  height: 53px;
+  width: 136px;
+}
+
+.subscribe_img_mobile_pos {
+  display: none;
+}
