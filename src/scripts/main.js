@@ -32,7 +32,15 @@ timer(".time_block.timer6 ","2022-07-19");
 	  })
   })
 
+  console.log(document.querySelector("#show_sellers"))
 
+document.querySelector("#show_sellers").addEventListener("click" , () => {
+  console.log(  document.querySelectorAll(".animation_seller"))
+  document.querySelectorAll(".animation_seller").forEach(item => {
+    console.log(item)
+    item.classList.toggle("hidden_seller")
+  })
+})
 //   const allTrigger = document.querySelectorAll(".footer_title.showable");
 
 

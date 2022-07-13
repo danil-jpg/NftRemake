@@ -168,6 +168,16 @@
   button.explore_item_text {
     width: 330.12px;
   }
+  .hidden_seller {
+    max-height: 0px;
+    max-width: 0px;
+    visibility: hidden;
+  }
+  div.sellers_button_pos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -352,6 +362,33 @@
   }
   img.author_small_background {
     width: 300px;
+  }
+  .seller_wrapper {
+    width: 316.8px;
+    height: 89.75px;
+  }
+  .seller_photo {
+    width: 50.63px;
+    height: 50.63px;
+  }
+  .sellers_list_title {
+    font-size: 19.2314px;
+  }
+  .sellers_list_descr {
+    font-size: 14px;
+  }
+  .seller_num {
+    font-size: 13.8072px;
+  }
+  .seller_full_name {
+    font-size: 13px;
+  }
+  .seller_id {
+    font-size: 9.97186px;
+  }
+  .seller_button {
+    width: 72.92px;
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 476px) {
