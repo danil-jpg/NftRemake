@@ -32,30 +32,27 @@ timer(".time_block.timer6 ","2022-07-19");
 	  })
   })
 
-  console.log(document.querySelector("#show_sellers"))
+
 
 document.querySelector("#show_sellers").addEventListener("click" , () => {
-  console.log(  document.querySelectorAll(".animation_seller"))
+
   document.querySelectorAll(".animation_seller").forEach(item => {
-    console.log(item)
+
     item.classList.toggle("hidden_seller")
   })
 })
 
 
-// document.querySelectorAll("span.footer_title ~ul").forEach(item => {
-//   item.style.display = "none";
-// })
-//   const allTrigger = document.querySelectorAll(".footer_title.showable");
+document.querySelectorAll("div.list ul").forEach(item => {
+  item.classList.add("none")
+})
+// Это что-бы элементы по умолчанию были скрыты.
 
+const footerListTrigger = document.querySelectorAll("span.showable");
 
-//   allTrigger.forEach(item => {
-//     item.addEventListener("click" , (e) => {
-//       let text = e.target.querySelectorAll("a");
-//       console.log(e.target.querySelectorAll("a"))
-
-//       text.forEach(item => {
-//         item.classList.toggle("none_new")
-//       })
-//     })
-//   })
+footerListTrigger.forEach(item => {
+  item.addEventListener("click" , (e) => {
+    console.log(item.classList[2],`.${item.classList[2]}`)
+   console.log( document.querySelector(`.${item.classList[2]} ~ ul`).classList.toggle("none"))
+  })
+})
