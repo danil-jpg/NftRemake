@@ -5,6 +5,10 @@
   margin-top: 160px;
 }
 
+.what_is_nft_section {
+  min-height: 1100px;
+}
+
 .what_is_wrapper {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(145.603px);
@@ -136,6 +140,8 @@
 }
 
 .subscribe_input {
+  border-radius: 6.64865px 0px 0px 6.64865px;
+  border-color: white;
   padding: 20px;
   width: 256.15px;
   height: 53.06px;
@@ -143,10 +149,23 @@
 }
 
 .subscribe_button {
+  border-radius: 0px 6.64865px 6.64865px 0px;
   height: 53px;
   width: 136px;
 }
 
 .subscribe_img_mobile_pos {
   display: none;
+}
+
+.subscribe_section {
+  margin-top: 260px;
+}
+
+.hor_line {
+  background: #fff;
+  opacity: 0.2;
+  width: 100%;
+
+  height: 1.1px;
 }

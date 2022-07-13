@@ -1,18 +1,23 @@
+.footer {
+  margin-top: 160px;
+}
+
 .footer_title {
   margin-top: 95px;
-  margin-bottom: 17.5px;
+  margin-bottom: 27.5px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 19.8983px;
   line-height: 31px;
-  /* identical to box height, or 156% */
-  display: inline-block;
+
   font-feature-settings: "salt" on, "liga" off;
 
-  /* Default / White */
-
   color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer_text {
@@ -37,7 +42,6 @@
 }
 
 .footer_descr {
-  margin-top: -95px;
 }
 
 .media_block {
@@ -63,4 +67,28 @@
   /* Text / Gray 300 */
 
   color: #d9dbe1;
+}
+
+.ocean_nft_logo {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.8983px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+
+.footer_logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer_logo_pos {
+  margin-top: 95px;
+}
+
+.footer_descr {
+  margin-top: 30px;
 }

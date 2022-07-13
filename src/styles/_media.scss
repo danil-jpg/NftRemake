@@ -200,6 +200,15 @@
     justify-content: center;
     align-items: baseline;
   }
+  .what_is_nft_section {
+    min-height: 1500px;
+  }
+  .visible_992 {
+    display: initial !important;
+  }
+  .footer_logo_pos {
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -450,6 +459,22 @@
   .what_is_nft_pos {
     display: flex;
     justify-content: center;
+  }
+  .subscribe_to_us {
+    font-size: 26px;
+  }
+  .subscribe_descr {
+    font-size: 13.1351px;
+  }
+  .subscribe_input {
+    width: 180.97px;
+    font-size: 10.2162px;
+  }
+  .subscribe_button {
+    width: 94.86px;
+  }
+  .what_is_nft_section {
+    min-height: 1300px;
   }
 }
 @media screen and (max-width: 476px) {

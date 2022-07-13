@@ -41,6 +41,11 @@ document.querySelector("#show_sellers").addEventListener("click" , () => {
     item.classList.toggle("hidden_seller")
   })
 })
+
+
+// document.querySelectorAll("span.footer_title ~ul").forEach(item => {
+//   item.style.display = "none";
+// })
 //   const allTrigger = document.querySelectorAll(".footer_title.showable");
 
 
