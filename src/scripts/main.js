@@ -9,7 +9,7 @@ timer(".time_block.timer2 ","2022-07-22");
 timer(".time_block.timer3 ","2022-07-19");
 timer(".time_block.timer4 ","2022-07-23");
 timer(".time_block.timer5 ","2022-07-24");
-timer(".time_block.timer6 ","2022-07-19");
+
 
 
  const swiper = new Swiper('.swiper', {
@@ -39,6 +39,7 @@ document.querySelector("#show_sellers").addEventListener("click" , () => {
   document.querySelectorAll(".animation_seller").forEach(item => {
 
     item.classList.toggle("hidden_seller")
+    item.classList.toggle("animate__fadeInDown")
   })
 })
 

@@ -149,9 +149,24 @@
 }
 
 .subscribe_button {
+  background: linear-gradient(
+        92.23deg,
+        #ff56f6 21.43%,
+        #b936ee 50.63%,
+        #3bace2 100%,
+        #406aff 117.04%
+      )
+      padding-box,
+    linear-gradient(135deg, #3c79d4 20%, #ffa6fa 70%) border-box;
   border-radius: 0px 6.64865px 6.64865px 0px;
   height: 53px;
   width: 136px;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.6873px;
+  border-color: transparent;
+  color: #ffffff;
 }
 
 .subscribe_img_mobile_pos {

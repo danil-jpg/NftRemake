@@ -72,6 +72,8 @@
     display: flex;
     justify-content: center;
     margin-top: 60px;
+
+    filter: drop-shadow(-19px 0.3594499999999954px 57.2166px #910372);
   }
 
   .author_block_pos.author_wrapper {
@@ -135,6 +137,11 @@
   .subscribe_img {
     width: 500px;
   }
+
+  [alt="blockchain_logo"],
+  [alt="bixmex_logo"] {
+    margin-left: 50px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -150,22 +157,60 @@
   .margin-left-10_992 {
     margin-left: 10px;
   }
+  // .nft_mobile_explore::before {
+  //   // position: relative;
+  //   width: 131px;
+  //   height: 32px;
+  //   // background: rgba(255, 86, 246, 0);
+  //   background: red;
+  //   -webkit-clip-path: polygon(17% 0, 92% 0, 92% 67%, 75% 100%, 0 100%, 0 27%);
+  //   clip-path: polygon(17% 0, 92% 0, 92% 67%, 75% 100%, 0 100%, 0 27%);
+  //   z-index: 2;
+  //   content: "";
+  // }
+
+  .polygon_container {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 135px;
+    height: 36px;
+    background: linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
+    clip-path: polygon(17% 0, 92% 0, 92% 67%, 75% 100%, 0 100%, 0 27%);
+
+    width: 135px;
+    height: 37px;
+  }
+
   .nft_mobile_explore {
     box-shadow: 0px 2.35945px 57.2166px rgba(255, 86, 246, 0.51);
     backdrop-filter: blur(113.253px);
-    width: 133.31px;
-    height: 34.21px;
-    border-radius: 1.17972px;
+    width: 133px;
+    height: 34px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    // border-radius: 1.17972px;
     display: flex;
     justify-content: center;
-    background: rgba(255, 86, 246, 0);
-    border-radius: 2.21092px;
-    border: 2px solid transparent;
-    -o-border-image: linear-gradient(135deg, #3c79d4 20%, #ffa6fa 70%);
-    border-image: linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
-    border-image-slice: 1;
-    border: 1.18px solid;
+    align-items: center;
+    // background: rgba(255, 86, 246, 0);
+    // border-radius: 2.21092px;
+    // border: 2px solid transparent;
+    // -o-border-image: linear-gradient(135deg, #3c79d4 20%, #ffa6fa 70%);
+    // background: linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
+    // border-image-slice: 1;
+    // border: 1.18px solid;
     color: white;
+    -webkit-clip-path: polygon(17% 0, 92% 0, 92% 67%, 75% 100%, 0 100%, 0 27%);
+    clip-path: polygon(17% 0, 92% 0, 92% 67%, 75% 100%, 0 100%, 0 27%);
+    background: #20083b;
+    font-size: 12px;
+
+    img {
+      width: 27.72px;
+      height: 8.26px;
+    }
   }
   .nft_mobile_explore_pos {
     margin-top: 30px;
@@ -264,7 +309,7 @@
     }
   }
   .main_menu {
-    transform: translateY(-30%) !important;
+    transform: translateY(-80%) !important;
     transition: 2s;
   }
   .mobile_descr_pos {
@@ -337,6 +382,7 @@
   }
   div.brands_wrapper {
     margin-top: 45px;
+    margin-left: 18px;
   }
   .common_font {
     font-size: 16px;
@@ -501,6 +547,12 @@
   }
   .rainbow_text_17 {
     font-size: 12px;
+  }
+  .author_tag {
+    font-size: 14.4764px;
+  }
+  .discover_section {
+    margin-bottom: 70px;
   }
 }
 @media screen and (max-width: 476px) {
