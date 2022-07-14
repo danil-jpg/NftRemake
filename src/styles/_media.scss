@@ -440,8 +440,11 @@
       width: 100px;
     }
   }
-  img.author_small_background {
-    width: 300px;
+  // img.author_small_background {
+  //   width: 300px;
+  // }
+  .border_container {
+    height: 391px;
   }
   .seller_wrapper {
     width: 316.8px;
@@ -553,6 +556,9 @@
   }
   .discover_section {
     margin-bottom: 70px;
+  }
+  .border_container {
+    width: 300px;
   }
 }
 @media screen and (max-width: 476px) {

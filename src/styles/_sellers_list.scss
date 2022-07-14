@@ -37,8 +37,7 @@ span.pink {
   border: 2.76px solid;
 
   border-radius: 28.5719px;
-  background: rgba(255, 86, 246, 0);
-  border-color: rgba(255, 255, 255, 0.28);
+
   border-width: 2.7px;
   border-style: solid;
   display: flex;
@@ -47,6 +46,18 @@ span.pink {
   flex-wrap: wrap;
   // margin-right: 20px;
   margin-bottom: 35px;
+
+  background: linear-gradient(#200d3c, #200d3c) padding-box,
+    linear-gradient(
+        145.77deg,
+        rgba(255, 255, 255, 0.28) 0%,
+        rgba(255, 255, 255, 0) 105.76%
+      )
+      border-box;
+
+  border-color: transparent;
+
+  border: 2.76px solid;
 }
 
 .seller_num {
