@@ -1,0 +1,67 @@
+.none {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.burger_link {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: black;
+}
+
+.burger_wrapper {
+  // width: 100%;
+  position: relative;
+  color: white;
+  text-align: center;
+  height: 40px;
+}
+
+#burger {
+  display: none;
+}
+
+.burger_label {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.main_menu {
+  display: block;
+  position: absolute;
+
+  bottom: 0;
+  right: 0;
+  transform: translateY(53%);
+  max-height: 0;
+  font-size: 0;
+  overflow: hidden;
+  transition: 1s;
+}
+
+#burger:checked ~ .main_menu {
+  max-height: 500px;
+  font-size: 16px;
+}
+
+#burger:checked ~ label .burger_trigger {
+  transition: 0.5s ease;
+  display: none;
+}
+#burger:checked ~ label .burger_close {
+  transition: 0.5s ease-in-out;
+  display: block;
+}

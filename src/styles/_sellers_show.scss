@@ -1,0 +1,161 @@
+.top_sellers {
+  margin-top: 157px;
+
+  .author_wrapper_rectangle {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) -1.52%,
+      rgba(255, 255, 255, 0.024) 104.35%
+    );
+    -webkit-backdrop-filter: blur(79.2003px);
+    backdrop-filter: blur(79.2003px);
+    width: 100%;
+    height: 355px;
+    border: none;
+    border-image-source: none;
+    border-image-slice: 1;
+  }
+  .top_author_tag {
+    margin-bottom: 22px;
+    align-items: center;
+
+    img {
+      display: inline-block;
+      position: relative;
+      left: 7px;
+    }
+  }
+  .seller_name {
+    margin-top: 7px;
+    font-size: 24.3201px;
+  }
+  .author_button_wrapper {
+    margin-top: 33px;
+
+    button {
+      width: 234.84px;
+      height: 50.85px;
+      border-width: 3px;
+    }
+  }
+}
+.top_author_rectangle {
+  height: 330px;
+}
+
+[alt="colorfulBackground"] {
+  width: 100%;
+}
+
+.border_container {
+  border: 2.88px solid;
+  border-image-source: linear-gradient(
+    145.77deg,
+    rgba(255, 255, 255, 0.28) 0,
+    rgba(255, 255, 255, 0) 105.76%
+  );
+  border-image-slice: 1;
+  width: 400.76px;
+  height: 523px;
+  width: 431.13px;
+  height: 562px;
+}
+
+.slider_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author_photo {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: -105px;
+}
+
+.seller_name {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24.3201px;
+
+  color: #ffffff;
+}
+
+.top_author_tag {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.1601px;
+
+  color: #ffb1ee;
+  margin-bottom: 10px;
+}
+
+.author_statistic_num_pos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.author_statistic_descr_pos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.author_statistic_text {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31.6897px;
+
+  /* identical to box height, or 200% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.author_statistic_descr {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.8061px;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.author_button_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 23px;
+
+  button {
+    width: 220px;
+    height: 50px;
+  }
+}
+
+.sellers_rainbow_button_pos {
+  display: flex;
+  justify-content: center;
+  margin: 24px auto auto;
+  width: 234.84px;
+  height: 50.85px;
+}
+
+.seller_show_rainbow_btn {
+  width: 100%;
+  box-shadow: 0 4.8174748421px 116.8237762451px 0 rgb(255 86 246 / 51%);
+}

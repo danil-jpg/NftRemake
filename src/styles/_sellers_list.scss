@@ -1,0 +1,155 @@
+.sellers_list {
+  margin-top: 162px;
+}
+
+.sellers_list_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    margin-left: 5px;
+  }
+}
+
+span.pink {
+  color: rgba(255, 86, 246, 1);
+  padding-left: 7px;
+}
+
+.sellers_list_descr {
+  margin-top: 23px;
+
+  margin-bottom: 57px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.6873px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+}
+.seller_wrapper {
+  width: 410.04px;
+  height: 123.81px;
+  -webkit-backdrop-filter: blur(75.8157px);
+  backdrop-filter: blur(75.8157px);
+  border: 2.7px solid transparent;
+  border-radius: 28.5719px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+
+  background: linear-gradient(#221248, #221248) padding-box,
+    linear-gradient(
+        145.77deg,
+        rgba(255, 255, 255, 0.28) 0,
+        rgba(255, 255, 255, 0) 105.76%
+      )
+      border-box;
+}
+
+.seller_num {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.0479px;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.seller_name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.0479px;
+
+  color: #ffffff;
+}
+
+.seller_id {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.7568px;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.seller_full_name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.0479px;
+
+  color: #ffffff;
+}
+
+.seller_button {
+  width: 100.6px;
+  height: 35.37px;
+  left: 425.16px;
+  top: 3986.67px;
+
+  border-radius: 17.5283px;
+  border: 1.13px solid;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.7012px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  border-color: linear-gradient(
+    262.58deg,
+    rgba(0, 179, 71, 0.72) -7.49%,
+    rgba(73, 182, 73, 0) 123.89%
+  );
+  color: #00ff66;
+  background: rgba(0, 179, 71, 0.15);
+}
+
+.red {
+  border-color: linear-gradient(
+    180deg,
+    rgba(235, 20, 20, 0.15) 0%,
+    rgba(235, 20, 20, 0.1005) 100%
+  );
+  background: rgba(235, 20, 20, 0.1005);
+  border-radius: 17.5283px;
+  color: #ff0000;
+}
+
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.animation_seller {
+  // transition: ease-out;
+  // transition: 1.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  // animation-name: "animate__fadeInDown";
+}
+
+.fade {
+  animation: 2s fade ease;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.sellers_button_pos {
+  display: none;
+}

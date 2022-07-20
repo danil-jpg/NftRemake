@@ -1,0 +1,177 @@
+.what_is_nft {
+  height: 556.37px;
+  width: 100%;
+  background: url("../img/whatIsNft/backgroundNft.png") center/cover no-repeat;
+  margin-top: 160px;
+}
+
+.what_is_nft_section {
+  min-height: 1100px;
+}
+
+.what_is_wrapper {
+  background-image: url(../img/whatIsNft/what_is_block.png);
+  -webkit-backdrop-filter: blur(145.603px);
+  backdrop-filter: blur(145.603px);
+  width: 577.05px;
+  height: 473.14px;
+  border-image-source: linear-gradient(
+    113.62deg,
+    #616161 0,
+    rgba(255, 255, 255, 0) 96.25%
+  );
+  border-image-slice: 1;
+  margin-top: 216px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 59.95px 0 0 70.2px;
+}
+
+.justify-content-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.what_is_title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44.5093px;
+  line-height: 60px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #fff;
+  height: 50px;
+}
+
+.what_is_descr {
+  height: 214px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.0292px;
+  line-height: 36px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #fff;
+  width: 458.45px;
+  margin-top: -10px;
+}
+
+.what_is_marks {
+  width: 458.45px;
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on, "liga" off;
+
+  img {
+    margin-left: 50px;
+  }
+}
+
+.learn_more {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.what_is_nft_block_pos {
+  margin-left: -16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subscribe_img {
+  margin-left: -10px;
+}
+
+.subscribe_wrapper {
+  margin-left: 50px;
+}
+
+.subscribe_block {
+  margin-top: 160px;
+}
+
+.subscribe_descr {
+  height: 65.75px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.8983px;
+  line-height: 35px;
+  /* or 178% */
+
+  font-feature-settings: "salt" on, "liga" off;
+
+  color: #ffffff;
+}
+
+.subscribe_to_us {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39.7965px;
+  line-height: 50px;
+  /* identical to box height */
+
+  font-feature-settings: "salt" on, "liga" off;
+
+  color: #ffffff;
+  padding: 27px 0;
+}
+
+.subscribe_input {
+  border-radius: 6.64865px 0 0 6.64865px;
+  border-color: #fff;
+  padding: 20px;
+  margin-top: 56px;
+  width: 274.15px;
+  height: 53.06px;
+}
+
+.subscribe_button {
+  background: linear-gradient(
+        92.23deg,
+        #ff56f6 21.43%,
+        #b936ee 50.63%,
+        #3bace2 100%,
+        #406aff 117.04%
+      )
+      padding-box,
+    linear-gradient(135deg, #3c79d4 20%, #ffa6fa 70%) border-box;
+  border-radius: 0 6.64865px 6.64865px 0;
+  height: 53.06px;
+  width: 150px;
+  border-width: 3px;
+  font-family: Rajdhani;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.6873px;
+  border-color: transparent;
+  color: #fff;
+  box-shadow: 0 4.421836853px 107.2295455933px 0 rgb(255 86 246 / 51%);
+}
+
+.subscribe_img_mobile_pos {
+  display: none;
+}
+
+.subscribe_section {
+  margin-top: 297px;
+}
+
+.hor_line {
+  background: #fff;
+  opacity: 0.2;
+  width: 100%;
+
+  height: 1.1px;
+}
