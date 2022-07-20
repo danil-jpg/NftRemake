@@ -29,10 +29,10 @@
 }
 
 .burger_label {
-  display: block;
-  position: absolute;
-  top: 20px;
-  right: 10px;
+  // display: block;
+  // position: absolute;
+  // top: 20px;
+  // right: 10px;
 
   height: 100%;
   cursor: pointer;
@@ -42,16 +42,14 @@
 .main_menu {
   display: block;
   position: absolute;
-
   bottom: 0;
-  right: 0;
+  right: 30px;
   transform: translateY(53%);
   max-height: 0;
   font-size: 0;
   overflow: hidden;
   transition: 1s;
 }
-
 #burger:checked ~ .main_menu {
   max-height: 500px;
   font-size: 16px;
