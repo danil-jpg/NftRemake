@@ -676,7 +676,7 @@
   }
   p.eth_price_l {
     font-size: 10px;
-    margin-top: 0px;
+    margin-top: -13px;
   }
   button.place_bid_pos_nft {
     height: 33.96px;
@@ -799,7 +799,8 @@
 
     p.reserve_price_l {
       font-size: 8.5004px;
-      margin-top: -8px;
+
+      margin-top: 0px;
     }
     p.eth_price_l {
       font-size: 7.47244px;
@@ -862,6 +863,9 @@
     .nft_mobile_explore_pos {
       margin-top: 40px;
     }
+    .slider_center {
+      margin-right: 36px;
+    }
   }
 
   section.explore_collections {
@@ -893,10 +897,15 @@
       img {
         width: 21.53px;
         height: 6.41px;
-        margin-right: 21px;
+        margin-right: 24px;
       }
     }
+    .author_wrapper_rectangle {
+      height: 265px;
+      padding-left: 9px;
+    }
   }
+
   .top_sellers {
     margin-top: 100px;
 
@@ -916,6 +925,82 @@
     }
     .seller_name {
       font-size: 16.8391px;
+    }
+    .top_author_rectangle {
+      height: 253px;
+    }
+    .author_button_wrapper {
+      margin-top: 18px;
+      .rainbow_button {
+        width: 162.6px;
+        height: 35.21px;
+        font-size: 13.7774px;
+        border-width: 2px;
+      }
+    }
+  }
+  .border_container {
+    width: 298.51px;
+    height: 399px;
+  }
+
+  .slider_center {
+    margin-right: 34px;
+  }
+  .polygon_container {
+    width: 136px;
+  }
+  .sellers_list {
+    margin-top: 116px;
+  }
+  .none_until_376 {
+    display: initial;
+  }
+  .sellers_list_descr {
+    font-size: 14px;
+    line-height: 140.19%;
+    margin-top: 14px;
+    margin-bottom: 24px;
+  }
+  .seller_wrapper {
+    margin-bottom: 23px;
+  }
+  div.sellers_button_pos {
+    margin-top: 10px;
+  }
+  .what_is_nft {
+    height: 556.37px;
+    height: 300px;
+    background: url(../img/whatIsNft/colourfullBackgroundMobile.png)
+      center/cover no-repeat;
+    margin-top: 106px;
+  }
+  .what_is_wrapper {
+    margin-top: 127px;
+    width: 335.4px;
+    height: 275px;
+    background-image: url(../img/whatIsNft/mobileNftBlock.png);
+    padding: 16.95px 0 0 42px;
+  }
+  .what_is_nft_block_pos {
+    justify-content: flex-end;
+  }
+  .what_is_descr {
+    width: 266.46px;
+    margin-top: -30px;
+
+    font-weight: 400;
+    font-size: 11.6415px;
+    line-height: 21px;
+  }
+  .what_is_marks {
+    .learn_more {
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 24px;
+    }
+    img {
+      margin-left: 27px;
     }
   }
 }
