@@ -13,7 +13,7 @@ timer(".time_block.timer5 ","2022-07-24");
 
 
  const swiper = new Swiper('.swiper', {
-  spaceBetween: 1,
+  spaceBetween: 25,
     slidesPerView: 1.2,
     slidesPerColumn: 1.2,
     centeredSlides: true,
