@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Inter:wght@400;500;800&family=League+Spartan:wght@600&family=MuseoModerno&family=Orbitron:wght@700&family=Quicksand&family=Rajdhani:wght@400;600;700&family=Roboto:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=League+Spartan:wght@600&family=MuseoModerno&family=Orbitron:wght@700&family=Quicksand&family=Rajdhani:wght@400;600;700&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
@@ -10,4 +10,14 @@
   font-family: "Spartan";
   src: url(../fonts/Spartan-Regular.ttf);
   font-weight: initial;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-VariableFont.ttf);
+}
+
+@font-face {
+  font-family: "InterExtraBold";
+  src: url(../fonts/Inter-ExtraBold.ttf);
 }

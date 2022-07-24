@@ -1,5 +1,9 @@
 .discover_section {
   margin-bottom: 176px;
+
+  .reserve_price {
+    margin-top: 2px;
+  }
 }
 
 .discover_text {
@@ -45,7 +49,7 @@
       )
       padding-box,
     linear-gradient(135deg, #3c79d4 20%, #ffa6fa 70%) border-box;
-  border-radius: 2.21092px;
+  border-radius: 5.21092px;
   width: 119.39px;
   height: 37.59px;
   border-color: transparent;
@@ -279,7 +283,7 @@
 .smth_name {
   font-family: Rajdhani;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 17.6873px;
   line-height: 35px;
   display: flex;
@@ -434,7 +438,17 @@
   align-items: center;
   margin-top: 53px;
 }
-
+.five000 {
+  margin-left: 15px;
+}
+.strange_line {
+  position: relative;
+  background: url(../img/header/strange_line.png);
+  width: 112.76px;
+  height: 22px;
+  left: 273px;
+  bottom: 10px;
+}
 .space-between {
   justify-content: space-between;
 }

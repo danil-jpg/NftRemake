@@ -25,6 +25,12 @@
 }
 
 section.nft_show {
+  .view_btn {
+    margin-right: -10px;
+    img {
+      margin-left: 15px;
+    }
+  }
   .nft_container {
     img[alt="eth"],
     [alt="bull_block"],
@@ -166,4 +172,12 @@ section.nft_show {
   display: flex;
   justify-content: space-between;
   margin-bottom: 47px;
+}
+
+.nft_bull_spec {
+  margin-left: 8px;
+}
+
+.nft_3d_spec {
+  margin-right: -20px;
 }
