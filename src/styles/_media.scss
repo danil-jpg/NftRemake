@@ -18,7 +18,7 @@
   .seller_wrapper {
     .seller_num {
       width: 9.52px;
-      margin-left: 18px;
+      margin-left: 11px;
     }
     // .seller_photo {
     //   position: relative;
@@ -30,6 +30,7 @@
 
     .dozen {
       width: 26.53px;
+      margin-left: 0px;
     }
     .dozen + img.seller_photo {
       margin-left: -9px;
@@ -37,6 +38,38 @@
 
     .seller_button {
       margin-top: 17px;
+    }
+  }
+  section.nft_show {
+    .author_apollo_rectangle {
+      background: url(../img/showItems/apolosBackground.png);
+      border: none;
+    }
+    .author_wrapper_rectangle_3d {
+      border: none;
+      background: url(../img/showItems/3dBackground.png);
+    }
+  }
+  .seller_show_rainbow_btn {
+    font-family: "Rajdhani";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.8983px;
+  }
+  .subscribe_button_text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.4764px;
+  }
+  .media_block {
+    img {
+      margin-left: 17px;
+    }
+  }
+  .media_block {
+    img:first-child {
+      margin-left: 0;
     }
   }
 }
@@ -351,7 +384,7 @@
   p.discover_descr {
     font-family: "Rajdhani";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 26px;
 
     line-height: 23px;
@@ -519,7 +552,8 @@
   }
   .author_statistic_text {
     font-size: 21.9417px;
-    font-weight: 100;
+
+    font-weight: 400;
   }
   .author_statistic_num_pos {
     margin-bottom: 3px;
@@ -659,6 +693,7 @@
   }
   .author_tag {
     font-size: 14.4764px;
+    font-weight: 500;
   }
   .discover_section {
     margin-bottom: 70px;
@@ -834,7 +869,7 @@
     margin-top: 38px;
   }
   .smth_name {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 17.0526px;
     line-height: 34px;
   }
@@ -875,7 +910,7 @@
 
     p.reserve_price_l {
       font-size: 8.5004px;
-
+      font-weight: 300;
       margin-top: 0px;
     }
     p.eth_price_l {
@@ -904,6 +939,7 @@
         margin-left: -10px;
       }
       button.place_bid_pos_nft {
+        font-weight: 400;
         width: 107.99px;
         height: 34px;
         border-width: 2px;
@@ -964,6 +1000,7 @@
 
     .common_font {
       // margin-left: 20px;
+      font-weight: 500;
     }
     .explore_list {
       margin-left: 9px;
@@ -973,6 +1010,14 @@
       }
     }
     button.explore_item_text {
+      border: 1.19px solid;
+      border-image-source: linear-gradient(
+        272.52deg,
+        rgba(255, 166, 250, 0.3) 47.49%,
+        rgba(60, 121, 213, 0.3) 98.81%
+      );
+      border-image-slice: 1;
+      font-weight: 100;
       font-size: 10.9922px;
       width: 152.52px;
       height: 40.76px;
@@ -998,7 +1043,9 @@
 
   .top_sellers {
     margin-top: 100px;
-
+    .top_author_tag {
+      font-weight: 400;
+    }
     .common_text_etc {
       margin-left: 9px;
       font-size: 17px;
@@ -1016,6 +1063,7 @@
     }
     .seller_name {
       font-size: 16.8391px;
+      font-weight: 400;
     }
     .top_author_rectangle {
       height: 253px;
@@ -1027,6 +1075,7 @@
         height: 35.21px;
         font-size: 13.7774px;
         border-width: 2px;
+        font-weight: 500;
       }
     }
   }
@@ -1083,13 +1132,13 @@
     width: 266.46px;
     margin-top: -30px;
 
-    font-weight: 400;
+    font-weight: 300;
     font-size: 11.6415px;
     line-height: 21px;
   }
   .what_is_marks {
     .learn_more {
-      font-weight: 500;
+      font-weight: 300;
       font-size: 10px;
       line-height: 24px;
     }
@@ -1170,6 +1219,7 @@
 
     .dozen {
       width: 26.53px;
+      margin-left: 0px;
     }
     .dozen + img.seller_photo {
       margin-left: -9px;
@@ -1204,5 +1254,31 @@
   img[alt="confirmation"] {
     width: 11px;
     height: 12px;
+  }
+  .rainbow_text_pos {
+    margin-left: 8px;
+  }
+  span.dollar_price {
+    opacity: 0.4;
+  }
+  .time_block {
+    p {
+      font-weight: 500;
+    }
+  }
+  .time_block_descr {
+    p {
+      font-size: 9.6579px;
+      font-weight: 400;
+    }
+  }
+  .arrow-right-svg {
+    margin-left: 3.5px;
+  }
+  .subscribe_button_text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.2162px;
   }
 }
