@@ -29,10 +29,17 @@
 }
 
 .burger_label {
+<<<<<<< HEAD
   // display: block;
   // position: absolute;
   // top: 20px;
   // right: 10px;
+=======
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 
   height: 100%;
   cursor: pointer;
@@ -42,14 +49,24 @@
 .main_menu {
   display: block;
   position: absolute;
+<<<<<<< HEAD
   bottom: 0;
   right: 30px;
+=======
+
+  bottom: 0;
+  right: 0;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
   transform: translateY(53%);
   max-height: 0;
   font-size: 0;
   overflow: hidden;
   transition: 1s;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 #burger:checked ~ .main_menu {
   max-height: 500px;
   font-size: 16px;

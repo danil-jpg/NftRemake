@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .nft_show .author_wrapper_rectangle [alt="auhtor"] {
   width: 37.44px;
   height: 37.44px;
@@ -14,6 +15,8 @@
   border-width: 2.8px;
 }
 
+=======
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 .common_font {
   font-family: "Orbitron";
   font-style: normal;
@@ -24,6 +27,7 @@
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 section.nft_show {
   .view_btn {
     margin-right: -10px;
@@ -161,6 +165,12 @@ section.nft_show {
 
 .swiper_visibility {
   display: none;
+=======
+.nft_buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 47px;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 }
 
 .view_btn {
@@ -168,6 +178,7 @@ section.nft_show {
   border: none;
 }
 
+<<<<<<< HEAD
 .nft_buttons {
   display: flex;
   justify-content: space-between;
@@ -180,4 +191,107 @@ section.nft_show {
 
 .nft_3d_spec {
   margin-right: -20px;
+=======
+.author_wrapper_rectangle {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1) -1.52%,
+    rgba(255, 255, 255, 0.024) 104.35%
+  );
+  backdrop-filter: blur(79.2003px);
+  width: 400.76px;
+  height: 213.16px;
+  border: 2.88px solid;
+
+  border-image-source: linear-gradient(
+    145.77deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0) 105.76%
+  );
+  border-image-slice: 1;
+}
+
+p.smth_name_l {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+p.author_tag_l {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+p.reserve_price_l {
+  font-size: 14.4001px;
+  margin-top: 8px;
+  width: 150px;
+}
+
+p.eth_price_l {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+p.dollar_price {
+  font-size: 14px;
+}
+
+p.auction-end_l {
+  font-size: 14.4001px;
+  justify-self: flex-start;
+}
+
+p.auction-end_nft {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+}
+
+div.timer_nft {
+  justify-content: flex-start;
+  p {
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+}
+
+div.time_block_descr_nft {
+  justify-content: flex-start;
+  p {
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+}
+
+button.place_bid_pos_nft {
+  margin-top: 32px;
+  width: 155.52px;
+  height: 48.96px;
+}
+
+div.rainbow_btn_wrapper_nft {
+  justify-content: flex-start;
+}
+
+.nft_container {
+  img[alt="eth"],
+  [alt="bull_block"],
+  [alt="3dart"] {
+    width: 400px;
+  }
+}
+
+.nft_mobile_explore {
+  display: none;
+}
+
+.slider_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper_visibility {
+  display: none;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 }

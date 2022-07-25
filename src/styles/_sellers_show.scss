@@ -1,4 +1,5 @@
 .top_sellers {
+<<<<<<< HEAD
   margin-top: 157px;
 
   .author_wrapper_rectangle {
@@ -38,10 +39,14 @@
       border-width: 3px;
     }
   }
+=======
+  margin-top: 67px;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 }
 .top_author_rectangle {
   height: 330px;
 }
+<<<<<<< HEAD
 
 [alt="colorfulBackground"] {
   width: 100%;
@@ -67,6 +72,8 @@
   align-items: center;
 }
 
+=======
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 .author_photo {
   display: flex;
   justify-content: center;
@@ -81,6 +88,10 @@
   font-family: "Rajdhani";
   font-style: normal;
   font-weight: 500;
+<<<<<<< HEAD
+=======
+  font-size: 24.3201px;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 
   color: #ffffff;
 }
@@ -146,19 +157,35 @@
   }
 }
 
+<<<<<<< HEAD
 .sellers_rainbow_button_pos {
   display: flex;
   justify-content: center;
   margin: 24px auto auto;
   width: 234.84px;
   height: 50.85px;
+=======
+[alt="colorfulBackground"] {
+  width: 400px;
+}
+
+.sellers_rainbow_button_pos {
+  display: flex;
+  justify-content: center;
+  width: 216.84px;
+  height: 50.85px;
+  margin: auto;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 }
 
 .seller_show_rainbow_btn {
   width: 100%;
+<<<<<<< HEAD
   box-shadow: 0 4.8174748421px 116.8237762451px 0 rgb(255 86 246 / 51%);
 }
 
 #show_sellers {
   background-color: #230f44;
+=======
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 }

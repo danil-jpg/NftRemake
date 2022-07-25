@@ -4,18 +4,29 @@ import timer from "./timer.js";
 
 
 
+<<<<<<< HEAD
 timer(".time_block.timer1 ","2022-07-29");
 timer(".time_block.timer2 ","2022-07-30");
 timer(".time_block.timer3 ","2022-08-19");
+=======
+timer(".time_block.timer1 ");
+timer(".time_block.timer2 ","2022-07-22");
+timer(".time_block.timer3 ","2022-07-19");
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 timer(".time_block.timer4 ","2022-07-23");
 timer(".time_block.timer5 ","2022-07-24");
 
 
 
  const swiper = new Swiper('.swiper', {
+<<<<<<< HEAD
   spaceBetween: 40,
     slidesPerView: 1.2,
     slidesPerColumn: 1.2,
+=======
+	spaceBetween: 1,
+    slidesPerView: 1,
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
     centeredSlides: true,
     roundLengths: true,
     loop: true,

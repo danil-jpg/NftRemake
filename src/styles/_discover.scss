@@ -1,4 +1,5 @@
 .discover_section {
+<<<<<<< HEAD
   margin-bottom: 176px;
 
   .reserve_price {
@@ -12,6 +13,18 @@
   font-weight: 600;
   font-size: 66.3276px;
   line-height: 137.4%;
+=======
+  margin-bottom: 150px;
+}
+
+.discover_text {
+  margin-top: -5px;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75.3276px;
+  line-height: 114.4%;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
   color: #fff;
 }
 .visible_768 {
@@ -25,7 +38,11 @@
 .rainbow {
   background-image: linear-gradient(272.38deg, #43a5e3 46.06%, #ff56f6 81.53%),
     linear-gradient(0deg, #ffffff, #ffffff);
+<<<<<<< HEAD
   font-family: "Spartan";
+=======
+  font-family: "League Spartan";
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
   font-style: normal;
   font-weight: 600;
   font-size: 66.3276px;
@@ -35,6 +52,7 @@
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+<<<<<<< HEAD
   box-shadow: 0px 4.817474842071533px 116.82377624511719px 0px
     rgba(255, 86, 246, 0.51);
 }
@@ -70,39 +88,76 @@
   font-size: 26.531px;
   line-height: 44px;
   color: #fff;
+=======
+}
+
+.discover_descr {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24.531px;
+  line-height: 44px;
+  /* or 167% */
+
+  color: #ffffff;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 }
 
 .smth_in_mask_position {
   position: absolute;
   max-width: 402px;
   min-height: 477px;
+<<<<<<< HEAD
   left: 61%;
   top: 185px;
+=======
+  left: 60%;
+  top: 158px;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
   z-index: 1;
 }
 
 .author_block_pos {
   box-sizing: border-box;
   position: absolute;
+<<<<<<< HEAD
   width: 336.06px;
   height: 181.3px;
   left: 69.3%;
   top: 541.31px;
+=======
+  width: 305.06px;
+  height: 165.3px;
+  left: 70%;
+  top: 530.31px;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
   z-index: 2;
 }
 
 .author_wrapper {
+<<<<<<< HEAD
   background: url(../img/header/SmthInMaskAuthor.png) center/cover no-repeat;
   padding-left: 23px;
 }
 
 .header_shadow {
   filter: drop-shadow(rgba(255, 86, 246, 0.51) 0px 2.35945px 57.2166px);
+=======
+  background: url(../img/header/SmthInMaskAuthor.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 }
 
 #polygon::before {
   filter: drop-shadow(0px 2.35945px 57.2166px rgba(255, 86, 246, 0.51));
+<<<<<<< HEAD
   width: 268px;
+=======
+  width: 246px;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
   height: 60px;
 
   background: linear-gradient(
@@ -123,7 +178,11 @@
 
 .explore_btn {
   position: relative;
+<<<<<<< HEAD
   width: 272px;
+=======
+  width: 250px;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
   height: 64px;
 
   background: linear-gradient(
@@ -153,10 +212,42 @@
   background: linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
 }
 
+<<<<<<< HEAD
 .explore_block_pos {
   display: flex;
   align-items: center;
   filter: drop-shadow(rgba(255, 86, 246, 0.51) 0px 2.35945px 57.2166px);
+=======
+.explore_btn {
+  width: 250px;
+  height: 64px;
+
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  backdrop-filter: blur(212.248px);
+
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-image-source: linear-gradient(
+    272.52deg,
+    #ffa6fa 47.49%,
+    #3c79d5 98.81%
+  );
+
+  // transform: matrix(-1, 0, 0, 1, 0, 0);
+  -webkit-clip-path: polygon(17% 0, 92% 0, 92% 67%, 75% 100%, 0 100%, 0 27%);
+  clip-path: polygon(17% 0, 92% 0, 92% 67%, 75% 100%, 0 100%, 0 27%);
+  box-shadow: 0px 4.421836853027344px 107.22954559326172px 0px
+    rgba(255, 86, 246, 0.51);
+
+  background: linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 }
 
 .polygon_text {
@@ -197,7 +288,11 @@
 
 .rainbow_text_19 {
   font-weight: 700;
+<<<<<<< HEAD
   font-size: 19.8983px;
+=======
+  font-size: 17.8983px;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
   line-height: 25px;
 }
 
@@ -219,10 +314,13 @@
   align-items: center;
 }
 
+<<<<<<< HEAD
 .margin-left-55 {
   margin-left: 55px;
 }
 
+=======
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 .ver_line {
   background: rgba(255, 255, 255, 0.26);
   position: relative;
@@ -254,7 +352,11 @@
   font-size: 17.6873px;
   line-height: 22px;
   /* identical to box height, or 125% */
+<<<<<<< HEAD
   margin-top: -6px;
+=======
+
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
   display: flex;
   align-items: center;
   letter-spacing: 0.221092px;
@@ -272,7 +374,13 @@
 .author_right {
   display: flex;
   flex-wrap: wrap;
+<<<<<<< HEAD
   margin-top: 33px;
+=======
+  margin-top: 27px;
+  margin-left: 12px;
+  // justify-content: center;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 
   img {
     align-self: center;
@@ -281,6 +389,7 @@
 }
 
 .smth_name {
+<<<<<<< HEAD
   font-family: Rajdhani;
   font-style: normal;
   font-weight: 600;
@@ -289,6 +398,19 @@
   display: flex;
   align-items: center;
   color: #fff;
+=======
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.6873px;
+  line-height: 35px;
+  /* identical to box height, or 200% */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 }
 
 .author_tag {
@@ -350,6 +472,7 @@
 }
 
 .auction-end {
+<<<<<<< HEAD
   font-family: Rajdhani;
   font-style: normal;
   font-size: 11.0546px;
@@ -357,6 +480,18 @@
   align-items: center;
   justify-content: flex-start;
   color: #fff;
+=======
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.0546px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
   opacity: 0.7;
 }
 
@@ -376,12 +511,21 @@
 }
 
 .author_left {
+<<<<<<< HEAD
   margin-top: 41px;
 }
 
 .auction-end_pos {
   margin-left: 20px;
 }
+=======
+  // display: flex;
+  // flex-wrap: wrap;
+  margin-top: 36px;
+  // margin-left: 23px;
+}
+
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 .time_block_descr {
   display: flex;
   justify-content: space-evenly;
@@ -418,8 +562,11 @@
   font-size: 17.6873px;
 
   color: #ffffff;
+<<<<<<< HEAD
   box-shadow: 0px 4.817474842071533px 116.82377624511719px 0px
     rgba(255, 86, 246, 0.51);
+=======
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 }
 
 .place_bid_pos {
@@ -436,6 +583,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
   margin-top: 53px;
 }
 .five000 {
@@ -449,6 +597,11 @@
   left: 273px;
   bottom: 10px;
 }
+=======
+  margin-top: 85px;
+}
+
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
 .space-between {
   justify-content: space-between;
 }
@@ -460,6 +613,9 @@
 .visible-476 {
   display: none;
 }
+<<<<<<< HEAD
 .rainbow_shadowless {
   box-shadow: none;
 }
+=======
+>>>>>>> 57d8053f8f60227c0fdaac7df7f260054f15efd6
