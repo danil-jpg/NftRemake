@@ -14,6 +14,8 @@
   color: white;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   background-color: black;
+  display: flex;
+  justify-content: center;
 }
 
 .burger_wrapper {
@@ -42,9 +44,10 @@
 .main_menu {
   display: block;
   position: absolute;
-  bottom: 0;
-  right: 30px;
-  transform: translateY(53%);
+  width: 90%;
+  // bottom: 0;
+  top: 50px;
+  // transform: translateY(53%);
   max-height: 0;
   font-size: 0;
   overflow: hidden;
