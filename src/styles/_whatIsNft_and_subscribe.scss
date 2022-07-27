@@ -48,7 +48,7 @@
   height: 214px;
   font-family: Inter;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20.0292px;
   line-height: 36px;
   font-feature-settings: "salt" on, "liga" off;
@@ -71,7 +71,7 @@
 .learn_more {
   font-family: Inter;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   color: #fff;
@@ -102,7 +102,7 @@
 
 .subscribe_descr {
   height: 65.75px;
-  font-family: "Inter";
+  font-family: "InterRegular";
   font-style: normal;
   font-weight: 300;
   font-size: 19.8983px;
@@ -175,4 +175,12 @@
   width: 100%;
 
   height: 1.1px;
+}
+
+.none_to_1394_show_376 {
+  display: none;
+}
+
+.visible_under_1200_none_376 {
+  display: none;
 }

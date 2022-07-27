@@ -6,6 +6,10 @@
   }
 }
 
+br.visible-576 {
+  display: none;
+}
+
 .discover_text {
   font-family: Spartan;
   font-style: normal;
@@ -294,7 +298,7 @@
 .author_tag {
   font-family: "Rajdhani";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15.4764px;
   line-height: 35px;
   /* identical to box height, or 229% */
@@ -377,6 +381,7 @@
 
 .author_left {
   margin-top: 41px;
+  margin-left: -15px;
 }
 
 .auction-end_pos {

@@ -7,13 +7,13 @@ import timer from "./timer.js";
 timer(".time_block.timer1 ","2022-07-29");
 timer(".time_block.timer2 ","2022-07-30");
 timer(".time_block.timer3 ","2022-08-19");
-timer(".time_block.timer4 ","2022-07-23");
-timer(".time_block.timer5 ","2022-07-24");
+timer(".time_block.timer4 ","2022-08-23");
+timer(".time_block.timer5 ","2022-08-24");
 
 
 
  const swiper = new Swiper('.swiper', {
-  spaceBetween: 40,
+  spaceBetween: 37,
     slidesPerView: 1.2,
     slidesPerColumn: 1.2,
     centeredSlides: true,
@@ -26,6 +26,30 @@ timer(".time_block.timer5 ","2022-07-24");
     },
 	modules: [Navigation, Pagination],
   });
+
+  function changeSwipperOffset(){
+    const width = document.querySelector("body").offsetWidth
+
+    if(width < 351){
+      const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+          slidesPerView: 1,
+          slidesPerColumn: 1,
+          centeredSlides: true,
+          roundLengths: true,
+          loop: true,
+          loopAdditionalSlides: 30,
+          navigation: {
+          nextEl: '.swiper-button-next-unique',
+          prevEl: '.swiper-button-prev-unique'
+          },
+        modules: [Navigation, Pagination],
+        });
+      
+    }
+  }
+
+changeSwipperOffset();
 
   document.querySelectorAll("button").forEach(item => {
 	  item.addEventListener("click" , e => {

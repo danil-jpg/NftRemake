@@ -1,6 +1,58 @@
+@media screen and (min-width: 1450px) {
+  .container.sellers_list {
+    min-width: 1425px;
+  }
+}
+
+@media screen and (min-width: 1425px) {
+  .container.sellers_list {
+    max-width: 1425px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  section.nft_show {
+    div.none_992 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .nft_container img[alt="eth"],
+    .nft_container img[alt="bull_block"],
+    .nft_container img[alt="3dart"] {
+      width: 400px;
+    }
+    .author_wrapper_rectangle {
+      width: 400px;
+    }
+    p.smth_name_l {
+      font-size: 22.0401px;
+    }
+    .author_left {
+      button.place_bid_pos_nft {
+        margin-left: -14px;
+      }
+    }
+  }
+  .border_container {
+    width: 400px;
+    height: 547px;
+  }
+  .top_sellers {
+    div.none_992 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+  .nft_buttons {
+    max-width: 1365px;
+  }
+  .JeromeBell {
+    margin-right: 0;
+  }
+}
 @media screen and (min-width: 1394px) {
   .container {
-    min-width: 1394px;
+    max-width: 1394px;
   }
   .header_link_top {
     padding-left: 18px;
@@ -13,7 +65,7 @@
     width: 1338.71px;
   }
   .container.sellers_list {
-    min-width: 1425px;
+    max-width: 1394px;
   }
   .seller_wrapper {
     .seller_num {
@@ -44,10 +96,12 @@
     .author_apollo_rectangle {
       background: url(../img/showItems/apolosBackground.png);
       border: none;
+      background-size: 100% 100%;
     }
     .author_wrapper_rectangle_3d {
       border: none;
       background: url(../img/showItems/3dBackground.png);
+      background-size: 100% 100%;
     }
   }
   .seller_show_rainbow_btn {
@@ -72,9 +126,59 @@
       margin-left: 0;
     }
   }
+  .none_to_1394_show_376 {
+    display: inline;
+  }
+}
+@media screen and (max-width: 1399px) and (min-width: 1394px) {
+  .explore_collections .margin-right-33 {
+    margin-right: 120px;
+  }
+  .nft_3d_spec {
+    margin-right: -17px;
+  }
+  .explore_list {
+    width: 900px;
+  }
+  .explore_collections .standing_girl_pos {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  .explore_list_wrapper {
+    justify-content: center;
+    display: flex;
+  }
+  #specialP {
+    display: none;
+  }
+  div.nft_3d_spec {
+    margin-top: 0;
+  }
+  .justify-content-center-1400 {
+    display: flex;
+    justify-content: center;
+  }
+  section.nft_show {
+    p.smth_name_l {
+      font-size: 18.0401px;
+    }
+    p.author_tag_l {
+      font-size: 19px;
+    }
+  }
+}
+
+@media screen and (width: 1394px) {
+  div.nft_3d_spec.nft_container {
+    margin-top: 0px;
+  }
 }
 
 @media screen and (max-width: 1394px) {
+  .seller_wrapper .seller_par {
+    width: 159.19px;
+  }
   div.smth_in_mask_position {
     left: 65%;
     img {
@@ -145,15 +249,57 @@
   .subscribe_input {
     width: 216.15px;
   }
+  section.nft_show {
+    p.smth_name_l {
+      font-size: 18.0401px;
+    }
+    p.author_tag_l {
+      font-size: 19px;
+    }
+  }
+  .explore_collections {
+    .standing_girl_pos {
+      margin: 0;
+    }
+  }
+  .subscribe_to_us {
+    padding-top: 0px;
+  }
+  .subscribe_input {
+    margin-top: 80px;
+    width: 214px;
+    font-size: 15.4764px;
+  }
+  .none_to_1394_show_376 {
+    display: none;
+  }
+  .footer_last_title {
+    width: 100px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
+  .author_left > p {
+    margin-left: 22px;
+  }
+  div.explore_block_pos {
+    justify-content: space-evenly;
+  }
+  .discover_text {
+    font-size: 59.3276px;
+  }
+  .header_text {
+    font-size: 15.8983px;
+  }
+  .strange_line {
+    display: none;
+  }
   #specialP {
     margin-right: 100px;
   }
   section.nft_show {
-    div.author_right {
-      margin-left: 0px;
+    .author_right {
+      margin-left: 22px;
     }
   }
 
@@ -231,9 +377,26 @@
   [alt="bixmex_logo"] {
     margin-left: 50px;
   }
+  .footer_last_title {
+    width: 86px;
+  }
+  .footer_last_title_pos {
+    margin-left: -10px;
+  }
+  .visible_under_1200_none_376 {
+    display: inline;
+  }
 }
 
 @media screen and (max-width: 992px) {
+  body.Nft {
+    background: url(../img/header/background_mobile.png);
+    background-size: 100% 100%;
+    // margin-left: 12px;
+  }
+  .arrow-right-svg {
+    margin-left: 3px;
+  }
   #specialP {
     margin-right: 0px;
   }
@@ -359,6 +522,18 @@
   .sellers_rainbow_button_pos {
     display: none;
   }
+  .what_is_title {
+    font-size: 38.5093px;
+  }
+  .what_is_descr {
+    font-size: 14px;
+    height: initial;
+  }
+  .what_is_wrapper {
+    background-image: url(../img/whatIsNft/what_is_block.png);
+    background-size: 100% 100%;
+    padding: 59.95px 0 0 70.2px;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -369,8 +544,8 @@
     margin-top: -56px;
     font-family: "Lato";
     font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
+    font-weight: 600;
+    font-size: 40px;
     line-height: 137.4%;
     color: #ffffff;
   }
@@ -401,6 +576,16 @@
 }
 
 @media screen and (max-width: 768px) {
+  [alt="bixmex_logo"],
+  [alt="blockchain_logo"] {
+    margin-left: 0px;
+  }
+  .info_num {
+    font-size: 33.7965px;
+  }
+  .info_descr {
+    font-size: 13.6873px;
+  }
   .none_768 {
     display: none;
   }
@@ -412,7 +597,7 @@
     justify-content: flex-end;
     align-items: center;
     padding-right: 18px;
-    margin-top: -109px;
+    margin-top: -135px;
   }
   .brands_wrapper {
     img {
@@ -435,14 +620,55 @@
   section.explore_collections {
     button.explore_item_text {
       width: 215.12px;
+      height: 75px;
+      font-size: 20px;
     }
   }
-}
-
-@media screen and (max-width: 576px) {
-  main {
-    // margin-left: -20px;
+  #specialP {
+    margin-right: 30px;
   }
+  .nft_buttons {
+    .common_font {
+      font-size: 21.531px;
+    }
+    .what_is_wrapper {
+      padding: 45.95px 0 0 70.2px;
+      height: 420px;
+    }
+  }
+  p.rights {
+    font-size: 11.4764px;
+  }
+}
+@media screen and (max-width: 576px) {
+  section.explore_collections {
+    #specialP {
+      font-size: 15px;
+      margin-left: 66px;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 21.53px;
+        height: 6.41px;
+        margin-right: 32px;
+      }
+    }
+  }
+
+  p.rights {
+    font-size: 15.4764px;
+  }
+  br.visible-576 {
+    display: initial;
+  }
+  [alt="bixmex_logo"] {
+    margin-left: 0;
+  }
+
+  [alt="blockchain_logo"] {
+    margin-left: 18px;
+  }
+
   div.brands_wrapper {
     justify-content: space-evenly;
     img {
@@ -468,6 +694,7 @@
     font-family: Lato;
     font-style: normal;
     font-weight: 700;
+    width: 305px;
     font-size: 45px;
     line-height: 131.4%;
     color: #fff;
@@ -477,7 +704,7 @@
   }
 
   p.discover_descr {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 14px;
     margin: auto;
     width: 300px;
@@ -698,17 +925,146 @@
   .discover_section {
     margin-bottom: 70px;
   }
+  .seller_wrapper {
+    .seller_par {
+      width: 115px;
+    }
+  }
+  .what_is_wrapper {
+    padding: 20.95px 0 0 44.2px;
+  }
+  .what_is_descr {
+    line-height: 19px;
+  }
 }
 @media screen and (max-width: 476px) {
+  .nft_show .author_wrapper_rectangle [alt="auhtor"] {
+    width: 26px;
+    height: 26px;
+    align-self: center;
+    margin: 2px;
+  }
+  section.nft_show {
+    div.author_right {
+      margin-left: 20px;
+    }
+    .nft_container {
+      img[alt="eth"],
+      img[alt="bull_block"],
+      img[alt="3dart"] {
+        width: 297px;
+      }
+    }
+    .author_wrapper_rectangle {
+      height: 163.98px;
+      width: 297px;
+
+      img[alt="author"] {
+        width: 26px;
+        height: 26px;
+        align-self: center;
+        margin: 2px;
+      }
+      p.author_tag_l {
+        font-size: 12px;
+        font-weight: 100;
+      }
+    }
+    p.smth_name_l {
+      font-size: 13px;
+      margin-top: 0;
+      margin-bottom: -10px;
+    }
+    p.reserve_price_l {
+      font-size: 8.5004px;
+      font-weight: 300;
+      margin-top: 0;
+    }
+    span.dollar_price_l {
+      font-size: 8.5004px;
+      margin-left: 10px;
+      font-weight: 100;
+    }
+    p.eth_price_l {
+      font-size: 7.47244px;
+      margin-top: -12px;
+      font-weight: 100;
+    }
+    .author_left {
+      margin-top: 28px;
+      margin-left: 21px;
+
+      div.time_block_descr_nft {
+        p {
+          margin-left: 1px;
+          font-weight: 500;
+          font-size: 8.5004px;
+        }
+      }
+      .rainbow_btn_wrapper {
+        width: 200px;
+        margin-left: -10px;
+      }
+      button.place_bid_pos_nft {
+        font-weight: 400;
+        width: 107.99px;
+        height: 34px;
+        border-width: 2px;
+        font-size: 13.6006px;
+        margin-left: 5px;
+        margin-top: 22px;
+        padding-bottom: 5px;
+      }
+    }
+    p.auction-end_nft {
+      line-height: 27px;
+      font-size: 8.5004px;
+      margin-left: 0;
+    }
+    div.timer_nft {
+      margin-top: -10px;
+      margin-right: 25px;
+
+      p {
+        margin-right: 26px;
+        margin-left: 2px;
+        font-size: 13.6006px;
+        line-height: 27px;
+      }
+    }
+    p.info_num {
+      font-size: 18px;
+    }
+    p.info_descr {
+      font-size: 12px;
+    }
+    br.visible-476 {
+      display: initial;
+    }
+  }
+
+  .top_sellers {
+    .author_button_wrapper {
+      margin-top: 18px;
+
+      .rainbow_button {
+        width: 162.6px;
+        height: 35.21px;
+        font-size: 13.7774px;
+        border-width: 2px;
+        font-weight: 500;
+      }
+    }
+  }
+
   p.info_num {
     font-size: 18px;
   }
+
   p.info_descr {
     font-size: 12px;
   }
-  br.visible-476 {
-    display: initial;
-  }
+
   .brands_wrapper {
     justify-content: space-evenly;
     img {
@@ -723,6 +1079,10 @@
       font-size: 20.1279px;
       line-height: 20px;
     }
+  }
+  .border_container {
+    width: 298.51px;
+    height: 399px;
   }
 }
 
@@ -1028,6 +1388,8 @@
       justify-content: flex-end;
       margin-top: 8px;
       font-size: 8.24417px;
+      margin-left: 0;
+      margin-right: 0;
 
       img {
         width: 21.53px;
@@ -1049,6 +1411,7 @@
     .common_text_etc {
       margin-left: 9px;
       font-size: 17px;
+      font-weight: 600;
     }
     .margin-top-50 {
       margin-top: 0px;
@@ -1280,5 +1643,77 @@
     font-style: normal;
     font-weight: 500;
     font-size: 10.2162px;
+  }
+  .none_to_1394_show_376 {
+    display: inline;
+  }
+  .visible_under_1200_none_376 {
+    display: none;
+  }
+  div.explore_block_pos {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .discover_section {
+    margin-left: 0;
+  }
+  h1.discover_text {
+    font-size: 40px;
+  }
+  div.brands_wrapper {
+    [alt="Binance_logo"] {
+      margin-left: 0;
+    }
+    [alt="blockchain_logo"] {
+      margin-left: 0;
+      width: 157.089615px;
+    }
+  }
+  section.nft_show {
+    .author_left {
+      margin-top: 28px;
+      margin-left: 4px;
+    }
+    .slider_center {
+      margin-right: 0;
+    }
+  }
+  .common_font {
+    font-size: 15px;
+  }
+  section.explore_collections {
+    button.explore_item_text {
+      font-size: 9.9922px;
+      width: 123.52px;
+    }
+  }
+  .slider_center {
+    margin-right: 0px;
+  }
+  div.author_wrapper {
+    background: url(../img/header/smth_author_mobile.png) center no-repeat;
+
+    background-size: 100%;
+    width: 300px;
+  }
+  .what_is_nft_block_pos {
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .none_to_1394_show_376 {
+    display: none;
+  }
+  .subscribe_input {
+    width: 164.97px;
+
+    margin-top: 30px;
+  }
+  .footer_list_container {
+    width: initial;
+  }
+  p.rights {
+    font-size: 13.4764px;
   }
 }
