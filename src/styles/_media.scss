@@ -641,6 +641,9 @@
   }
 }
 @media screen and (max-width: 576px) {
+  #exploreCollection {
+    font-size: 16px;
+  }
   section.explore_collections {
     #specialP {
       font-size: 15px;
@@ -734,7 +737,7 @@
     margin-top: 45px;
     margin-left: 10spx;
   }
-  .common_font {
+  .nft_buttons .common_font {
     font-size: 16px;
   }
   section.explore_collections {
@@ -1184,6 +1187,9 @@
   div.descr_info {
     margin-top: 27px;
   }
+  .mobile_descr_pos:first-child {
+    margin-left: 10px;
+  }
   div.brands_wrapper {
     margin-top: 41px;
     justify-content: space-between;
@@ -1411,7 +1417,7 @@
     .common_text_etc {
       margin-left: 9px;
       font-size: 17px;
-      font-weight: 600;
+      font-weight: 500;
     }
     .margin-top-50 {
       margin-top: 0px;
@@ -1495,7 +1501,7 @@
     width: 266.46px;
     margin-top: -30px;
 
-    font-weight: 300;
+    font-weight: 200;
     font-size: 11.6415px;
     line-height: 21px;
   }
@@ -1620,6 +1626,8 @@
   }
   .rainbow_text_pos {
     margin-left: 8px;
+    width: initial;
+    margin-right: 59px;
   }
   span.dollar_price {
     opacity: 0.4;

@@ -7,14 +7,72 @@
 		<title>Test</title>
 	</head>
 	<body>
-		<p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-			Nesciunt id itaque exercitationem consequatur atque! Officiis delectus maxime
-			ad dolores id, consectetur recusandae aut in repellat asperiores pariatur
-			sequi, voluptatum cumque.</p>
+		<div class="grid_container">
+			<div class="item_1">item1</div>
+			<div class="item_2">item2</div>
+			<div class="item_3">item3</div>
+			<div class="item_4">item4</div>
+			<div class="item_5">item5</div>
+			<div class="item_6">item6</div>
+			<div class="item_7">item7</div>
+			<div class="item_8">item8</div>
+			<div class="item_9">item9</div>
+			<div class="item_10">item10</div>
+			<div class="item_11">item11</div>
+			<div class="item_12">item12</div>
+		</div>
+
 		<style>
+			div{
+				font-size: 16;
+			}
+			.grid_container{
+				display: grid;
+				/* grid-template-columns: min-content 200px minmax(1000px,2500px); */
+				grid-template-columns: repeat(12, [col] 1fr) ;
+				grid-template-rows: repeat(12, [row]  1fr);
+				grid-column-gap:15px  ;
+				border: 1px dashed black;
+			}
+			.grid_container *{
+				background-color: purple;
+			}
+			.item_1{
+				grid-column: 1 / span 3;
+				background-color:green;
+			}
+			.item_2{
+				background-color: yellowgreen;
+			}
+			.item_3{
+				background-color: red;
+
+			}
+			.item_4{
+				background-color: blue;
+			}
+			.item_5{
+				background-color: black;
+			}
 				p{
 					color: green;
 					font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+				}
+				p:hover{
+					background-color: blue;
+					transform: scale(1.1);
+					animation: barrellRoll 5s ;
+				}
+
+				@keyframes barrellRoll {
+					0%{opacity: 1;}
+					
+					100%
+						{opacity: 0.1;};
+					
+				}
+				.animate-this-element {
+					animation: fade 5s ;
 				}
 			</style>
 	</body>

@@ -6,6 +6,17 @@
   }
 }
 
+.explore_btn:hover,
+.rainbow_button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.nft_mobile_explore:hover {
+  transition: all 0.7s;
+  text-decoration: underline;
+}
+
 br.visible-576 {
   display: none;
 }
@@ -312,7 +323,7 @@ br.visible-576 {
 .reserve_price {
   font-family: "Rajdhani";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 11.0546px;
   line-height: 35px;
   /* identical to box height, or 320% */
@@ -393,7 +404,7 @@ br.visible-576 {
   p {
     font-family: "Rajdhani";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 11.0546px;
 
     display: flex;
